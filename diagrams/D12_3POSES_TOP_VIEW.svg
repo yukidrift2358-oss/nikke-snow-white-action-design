@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="1400" height="900" fill="#F8FAFC"/>
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="0.5"/></pattern></defs>
+<rect width="1400" height="900" fill="url(#g)"/>
+<text x="40" y="56" fill="#0F172A" font-size="20" font-weight="700">D12 · 三持枪姿态顶视对比（A-01 §3）</text>
+<text x="40" y="82" fill="#64748B" font-size="12">身体轴线 · 枪口指向 · FOV 扇形张角 · 有效射程标注</text>
+<rect x="1220" y="36" width="140" height="40" rx="6" fill="none" stroke="#E2E8F0"/>
+<text x="1228" y="54" fill="#334155" font-size="10.5" font-weight="600">文档 V1.0</text>
+<text x="1228" y="70" fill="#64748B" font-size="10">2026-08-01</text>
+<defs><marker id="bd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker></defs>
+<rect x="280" y="130" width="360" height="500" rx="10" fill="#fff" stroke="#E2E8F0" stroke-width="1.2"/>
+<rect x="290" y="142" width="340" height="36" rx="6" fill="#0891B2" fill-opacity="0.08"/>
+<text x="302" y="166" fill="#0891B2" font-size="12" font-weight="700">姿态1 · 双步枪待机腰射</text>
+<text x="302" y="180" fill="#64748B" font-size="9.5">M-01 I-01 待机/走路</text>
+<circle cx="460" cy="420" r="200" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="460" cy="420" r="140" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="460" cy="420" r="80"  fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<text x="464" y="344" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">5m</text>
+<text x="464" y="284" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">10m</text>
+<text x="464" y="224" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">15m+</text>
+<circle cx="460" cy="426" r="16" fill="#0F172A" fill-opacity="0.3" stroke="#334155" stroke-width="1"/>
+<text x="460" y="429" fill="#334155" font-size="8" text-anchor="middle" font-weight="600">头</text>
+<polygon points="416.0,376.0 416.0,464.0 369.0,455.2 369.0,384.8" fill="#0891B2" fill-opacity="0.35" stroke="#0891B2" stroke-width="1"/>
+<line x1="460" y1="420" x2="460" y2="550" stroke="#0891B2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#bd)"/>
+<text x="468" y="554" fill="#0891B2" font-size="9" font-weight="700" transform="rotate(90 468 554)">身体轴 0°</text>
+<line x1="460" y1="445" x2="460" y2="525" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+<text x="464" y="527" fill="#0F172A" font-size="8.5" font-weight="600" font-family="JetBrains Mono" transform="rotate(90 464 527)">枪 0°</text>
+<path d="M 460.0 525.0 L 654.5 719.5 A 275.0 275.0 0 0 1 265.5 719.5 Z" fill="#0891B2" fill-opacity="0.15" stroke="#0891B2" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="460" y1="525" x2="460" y2="800" stroke="#0891B2" stroke-width="1" stroke-opacity="0.5"/>
+<text x="460" y="822" fill="#0891B2" font-size="10.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">FOV 90° · 25m</text>
+<path d="M 460.0 450.0 A 30 30 0 0 1 460.0 450.0" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-opacity="0.7"/>
+<text x="460" y="469" fill="#991B1B" font-size="9" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">Δ 0°</text>
+<line x1="292" y1="530" x2="628" y2="530" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="300" y="550" fill="#64748B" font-size="9.5">身体角度</text>
+<text x="400" y="550" fill="#334155" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="300" y="565" fill="#64748B" font-size="9.5">枪口角度</text>
+<text x="400" y="565" fill="#0F172A" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="300" y="580" fill="#64748B" font-size="9.5">轴夹角 Δ</text>
+<text x="400" y="580" fill="#0F766E" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="300" y="595" fill="#64748B" font-size="9.5">FOV 张角</text>
+<text x="400" y="595" fill="#0891B2" font-size="10" font-weight="700" font-family="JetBrains Mono">90°</text>
+<text x="300" y="610" fill="#64748B" font-size="9.5">有效射程</text>
+<text x="400" y="610" fill="#0891B2" font-size="10" font-weight="700" font-family="JetBrains Mono">25 m</text>
+<rect x="700" y="130" width="360" height="500" rx="10" fill="#fff" stroke="#E2E8F0" stroke-width="1.2"/>
+<rect x="710" y="142" width="340" height="36" rx="6" fill="#6D28D9" fill-opacity="0.08"/>
+<text x="722" y="166" fill="#6D28D9" font-size="12" font-weight="700">姿态2 · 狙击 ADS 架枪</text>
+<text x="722" y="180" fill="#64748B" font-size="9.5">F-05 ADS 开镜瞄准 · F-08 狙击</text>
+<circle cx="880" cy="420" r="200" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="880" cy="420" r="140" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="880" cy="420" r="80"  fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<text x="884" y="344" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">5m</text>
+<text x="884" y="284" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">10m</text>
+<text x="884" y="224" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">15m+</text>
+<circle cx="880" cy="426" r="16" fill="#0F172A" fill-opacity="0.3" stroke="#334155" stroke-width="1"/>
+<text x="880" y="429" fill="#334155" font-size="8" text-anchor="middle" font-weight="600">头</text>
+<polygon points="836.0,376.0 836.0,464.0 789.0,455.2 789.0,384.8" fill="#6D28D9" fill-opacity="0.35" stroke="#6D28D9" stroke-width="1"/>
+<line x1="880" y1="420" x2="880" y2="550" stroke="#6D28D9" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#bd)"/>
+<text x="888" y="554" fill="#6D28D9" font-size="9" font-weight="700" transform="rotate(90 888 554)">身体轴 0°</text>
+<line x1="880" y1="445" x2="880" y2="525" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+<text x="884" y="527" fill="#0F172A" font-size="8.5" font-weight="600" font-family="JetBrains Mono" transform="rotate(90 884 527)">枪 0°</text>
+<path d="M 880.0 525.0 L 1040.9 1835.2 A 1320.0 1320.0 0 0 1 719.1 1835.2 Z" fill="#6D28D9" fill-opacity="0.15" stroke="#6D28D9" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="880" y1="525" x2="880" y2="1845" stroke="#6D28D9" stroke-width="1" stroke-opacity="0.5"/>
+<text x="880" y="1867" fill="#6D28D9" font-size="10.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">FOV 14° · 120m</text>
+<path d="M 880.0 450.0 A 30 30 0 0 1 880.0 450.0" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-opacity="0.7"/>
+<text x="880" y="469" fill="#991B1B" font-size="9" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">Δ 0°</text>
+<line x1="712" y1="530" x2="1048" y2="530" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="720" y="550" fill="#64748B" font-size="9.5">身体角度</text>
+<text x="820" y="550" fill="#334155" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="720" y="565" fill="#64748B" font-size="9.5">枪口角度</text>
+<text x="820" y="565" fill="#0F172A" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="720" y="580" fill="#64748B" font-size="9.5">轴夹角 Δ</text>
+<text x="820" y="580" fill="#0F766E" font-size="10" font-weight="700" font-family="JetBrains Mono">0°</text>
+<text x="720" y="595" fill="#64748B" font-size="9.5">FOV 张角</text>
+<text x="820" y="595" fill="#6D28D9" font-size="10" font-weight="700" font-family="JetBrains Mono">14°</text>
+<text x="720" y="610" fill="#64748B" font-size="9.5">有效射程</text>
+<text x="820" y="610" fill="#6D28D9" font-size="10" font-weight="700" font-family="JetBrains Mono">120 m</text>
+<rect x="1120" y="130" width="360" height="500" rx="10" fill="#fff" stroke="#E2E8F0" stroke-width="1.2"/>
+<rect x="1130" y="142" width="340" height="36" rx="6" fill="#B45309" fill-opacity="0.08"/>
+<text x="1142" y="166" fill="#B45309" font-size="12" font-weight="700">姿态3 · CQB 腰射无镜</text>
+<text x="1142" y="180" fill="#64748B" font-size="9.5">M-03 Sprint + F-07 爆发射击</text>
+<circle cx="1300" cy="420" r="200" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="1300" cy="420" r="140" fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<circle cx="1300" cy="420" r="80"  fill="none" stroke="#E2E8F0" stroke-width="0.4" stroke-dasharray="2 4"/>
+<text x="1304" y="344" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">5m</text>
+<text x="1304" y="284" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">10m</text>
+<text x="1304" y="224" fill="#94A3B8" font-size="8.5" font-family="JetBrains Mono">15m+</text>
+<circle cx="1300" cy="426" r="16" fill="#0F172A" fill-opacity="0.3" stroke="#334155" stroke-width="1"/>
+<text x="1300" y="429" fill="#334155" font-size="8" text-anchor="middle" font-weight="600">头</text>
+<polygon points="1268.9,366.1 1246.1,451.1 1203.0,430.4 1221.2,362.4" fill="#B45309" fill-opacity="0.35" stroke="#B45309" stroke-width="1"/>
+<line x1="1300" y1="420" x2="1266" y2="545" stroke="#B45309" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#bd)"/>
+<text x="1274" y="549" fill="#B45309" font-size="9" font-weight="700" transform="rotate(105 1274 549)">身体轴 15°</text>
+<line x1="1300" y1="445" x2="1283" y2="523" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+<text x="1287" y="525" fill="#0F172A" font-size="8.5" font-weight="600" font-family="JetBrains Mono" transform="rotate(102 1287 525)">枪 12°</text>
+<path d="M 1283.4 523.3 L 1344.6 711.6 A 198.0 198.0 0 0 1 1150.9 670.4 Z" fill="#B45309" fill-opacity="0.15" stroke="#B45309" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="1283" y1="523" x2="1242" y2="716" stroke="#B45309" stroke-width="1" stroke-opacity="0.5"/>
+<text x="1237" y="738" fill="#B45309" font-size="10.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">FOV 60° · 18m</text>
+<path d="M 1292.2 449.0 A 30 30 0 0 1 1293.8 449.3" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-opacity="0.7"/>
+<text x="1289" y="467" fill="#991B1B" font-size="9" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">Δ 3°</text>
+<line x1="1132" y1="530" x2="1468" y2="530" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="1140" y="550" fill="#64748B" font-size="9.5">身体角度</text>
+<text x="1240" y="550" fill="#334155" font-size="10" font-weight="700" font-family="JetBrains Mono">15°</text>
+<text x="1140" y="565" fill="#64748B" font-size="9.5">枪口角度</text>
+<text x="1240" y="565" fill="#0F172A" font-size="10" font-weight="700" font-family="JetBrains Mono">12°</text>
+<text x="1140" y="580" fill="#64748B" font-size="9.5">轴夹角 Δ</text>
+<text x="1240" y="580" fill="#0F766E" font-size="10" font-weight="700" font-family="JetBrains Mono">3°</text>
+<text x="1140" y="595" fill="#64748B" font-size="9.5">FOV 张角</text>
+<text x="1240" y="595" fill="#B45309" font-size="10" font-weight="700" font-family="JetBrains Mono">60°</text>
+<text x="1140" y="610" fill="#64748B" font-size="9.5">有效射程</text>
+<text x="1240" y="610" fill="#B45309" font-size="10" font-weight="700" font-family="JetBrains Mono">18 m</text>
+<rect x="40" y="660" width="1320" height="210" rx="8" fill="#fff" stroke="#E2E8F0"/>
+<text x="52" y="684" fill="#0F172A" font-size="12" font-weight="700">三持枪姿态对比表（A-01 §3 → B-01 §3/§7 动作对齐）</text>
+<rect x="50" y="704" width="1300" height="26" fill="#F8FAFC"/>
+<text x="58" y="722" fill="#334155" font-size="10" font-weight="700">参数项</text>
+<text x="198" y="722" fill="#334155" font-size="10" font-weight="700">双步枪待机腰射</text>
+<text x="478" y="722" fill="#334155" font-size="10" font-weight="700">狙击 ADS 架枪</text>
+<text x="758" y="722" fill="#334155" font-size="10" font-weight="700">CQB 腰射无镜</text>
+<text x="1038" y="722" fill="#334155" font-size="10" font-weight="700">切换条件 / 触发动作</text>
+<text x="56" y="745" fill="#64748B" font-size="9.5" font-weight="700">武器形态</text>
+<text x="196" y="745" fill="#0891B2" font-size="9.5" font-weight="400">双步枪 ×2（双手各一）</text>
+<text x="476" y="745" fill="#6D28D9" font-size="9.5" font-weight="400">栓动狙击 ×1（肩托抵肩）</text>
+<text x="756" y="745" fill="#B45309" font-size="9.5" font-weight="400">双步枪 ×2</text>
+<text x="1036" y="745" fill="#334155" font-size="9.5" font-weight="400">M键切换 / F 动作绑定</text>
+<rect x="50" y="752" width="1300" height="22" fill="#F8FAFC" fill-opacity="0.4"/>
+<text x="56" y="767" fill="#64748B" font-size="9.5" font-weight="700">FOV 张角</text>
+<text x="196" y="767" fill="#0891B2" font-size="9.5" font-weight="400">90° · 广域警戒</text>
+<text x="476" y="767" fill="#6D28D9" font-size="9.5" font-weight="400">14° · 窄域高倍镜</text>
+<text x="756" y="767" fill="#B45309" font-size="9.5" font-weight="400">60° · 近距扇形</text>
+<text x="1036" y="767" fill="#334155" font-size="9.5" font-weight="400">ADS 键按下收窄，放开复原</text>
+<text x="56" y="789" fill="#64748B" font-size="9.5" font-weight="700">有效射程</text>
+<text x="196" y="789" fill="#0891B2" font-size="9.5" font-weight="400">25 m · 腰射散布</text>
+<text x="476" y="789" fill="#6D28D9" font-size="9.5" font-weight="400">120 m · 精准弹道</text>
+<text x="756" y="789" fill="#B45309" font-size="9.5" font-weight="400">18 m · 近距高射速</text>
+<text x="1036" y="789" fill="#334155" font-size="9.5" font-weight="400">弹道曲线由 A-03 帧数预算决定</text>
+<rect x="50" y="796" width="1300" height="22" fill="#F8FAFC" fill-opacity="0.4"/>
+<text x="56" y="811" fill="#64748B" font-size="9.5" font-weight="700">身体-枪轴 Δ</text>
+<text x="196" y="811" fill="#0891B2" font-size="9.5" font-weight="400">0° · 轴对齐</text>
+<text x="476" y="811" fill="#6D28D9" font-size="9.5" font-weight="400">12° · 瞄准时微偏</text>
+<text x="756" y="811" fill="#B45309" font-size="9.5" font-weight="400">−3° · Sprint 前冲微偏</text>
+<text x="1036" y="811" fill="#334155" font-size="9.5" font-weight="400">> 15° 触发 B-02 审片打回</text>
+<text x="56" y="833" fill="#64748B" font-size="9.5" font-weight="700">移动速度</text>
+<text x="196" y="833" fill="#0891B2" font-size="9.5" font-weight="400">100% · 待机/行走</text>
+<text x="476" y="833" fill="#6D28D9" font-size="9.5" font-weight="400">65% · ADS 减速</text>
+<text x="756" y="833" fill="#B45309" font-size="9.5" font-weight="400">115% · Sprint 冲刺</text>
+<text x="1036" y="833" fill="#334155" font-size="9.5" font-weight="400">A-03 M-02/M-03 帧数上限</text>
+<rect x="50" y="840" width="1300" height="22" fill="#F8FAFC" fill-opacity="0.4"/>
+<text x="56" y="855" fill="#64748B" font-size="9.5" font-weight="700">击发动画帧</text>
+<text x="196" y="855" fill="#0891B2" font-size="9.5" font-weight="400">F-05/F-06 双管各 18F</text>
+<text x="476" y="855" fill="#6D28D9" font-size="9.5" font-weight="400">F-08 狙击 48F + 拉栓</text>
+<text x="756" y="855" fill="#B45309" font-size="9.5" font-weight="400">F-07 腰射 14F 连发</text>
+<text x="1036" y="855" fill="#334155" font-size="9.5" font-weight="400">B-01 §7 分镜表</text>
+<text x="56" y="877" fill="#64748B" font-size="9.5" font-weight="700">表情联动</text>
+<text x="196" y="877" fill="#0891B2" font-size="9.5" font-weight="400">E01/02 闭 10F + E13 缩</text>
+<text x="476" y="877" fill="#6D28D9" font-size="9.5" font-weight="400">E05/06 Wide 0.40 + B09压眉</text>
+<text x="756" y="877" fill="#B45309" font-size="9.5" font-weight="400">M01/M02 呼吸补偿</text>
+<text x="1036" y="877" fill="#334155" font-size="9.5" font-weight="400">B-03 §03 8 阶段强度矩阵</text>
+<line x1="40" y1="860" x2="1360" y2="860" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="40" y="878" fill="#64748B" font-size="10.5" font-family="JetBrains Mono, monospace">D12 / 3POSES_TOP_VIEW</text>
+<text x="1360" y="878" fill="#64748B" font-size="10.5" text-anchor="end">A-01 §3 姿态基准 · B-01 §3 动作触发 · F-05/F-07/F-08 击发</text>
+</svg>

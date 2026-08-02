@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="820" viewBox="0 0 1320 820">
+<defs><style>
+text{font-family:"Noto Sans CJK SC","Noto Serif CJK SC","WenQuanYi Micro Hei",sans-serif;fill:#0F172A}
+.jb{font-family:"JetBrains Mono","Noto Sans Mono",Menlo,Consolas,monospace;} .bold{font-weight:700;}
+</style>
+<linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#0891B2" stop-opacity="0.14"/>
+<stop offset="100%" stop-color="#0891B2" stop-opacity="0.02"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1320" height="820" fill="#FFFFFF"/>
+<text x="30" y="36" class="bold" font-size="20">C-04 · 12 条连招链路 Cancel 窗口甘特图</text>
+<text x="30" y="58" font-size="12" fill="#64748B">帧基准 60 FPS · 横轴 0–120F · Startup/Recovery 浅灰 / Active 主题蓝 / Cancel 窗口 红色半透明区间</text>
+<rect x="0" y="72" width="1320" height="34" fill="url(#head)"/>
+<text x="162" y="94" text-anchor="end" class="bold" font-size="12" fill="#334155">链路编号</text>
+<text x="198" y="94" class="bold" font-size="12" fill="#334155">帧时序（Startup → Active → Recovery）  [10F 标尺]</text>
+<text x="1050" y="94" class="bold" font-size="12" fill="#334155">Early</text>
+<text x="1136" y="94" class="bold" font-size="12" fill="#334155">Late</text>
+<text x="1222" y="94" class="bold" font-size="12" fill="#334155">ΔF</text>
+<line x1="0" x2="1320" y1="80.0" y2="80.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="136.66666666666666" y2="136.66666666666666" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="193.33333333333331" y2="193.33333333333331" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="250.0" y2="250.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="306.66666666666663" y2="306.66666666666663" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="363.3333333333333" y2="363.3333333333333" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="420.0" y2="420.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="476.66666666666663" y2="476.66666666666663" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="533.3333333333333" y2="533.3333333333333" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="590.0" y2="590.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="646.6666666666666" y2="646.6666666666666" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="703.3333333333333" y2="703.3333333333333" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1320" y1="760.0" y2="760.0" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="0" y="80.0" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="193.33333333333331" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="306.66666666666663" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="420.0" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="533.3333333333333" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="646.6666666666666" width="1320" height="56.666666666666664" fill="#FAFBFC" opacity="0.6"/>
+<line x1="190.0" x2="190.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.65"/>
+<text x="190.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">0F</text>
+<line x1="260.0" x2="260.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="260.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">10F</text>
+<line x1="330.0" x2="330.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="330.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">20F</text>
+<line x1="400.0" x2="400.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.65"/>
+<text x="400.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">30F</text>
+<line x1="470.0" x2="470.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="470.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">40F</text>
+<line x1="540.0" x2="540.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="540.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">50F</text>
+<line x1="610.0" x2="610.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.65"/>
+<text x="610.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">60F</text>
+<line x1="680.0" x2="680.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="680.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">70F</text>
+<line x1="750.0" x2="750.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="750.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">80F</text>
+<line x1="820.0" x2="820.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.65"/>
+<text x="820.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">90F</text>
+<line x1="890.0" x2="890.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="890.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">100F</text>
+<line x1="960.0" x2="960.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.35"/>
+<text x="960.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">110F</text>
+<line x1="1030.0" x2="1030.0" y1="80" y2="760" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.65"/>
+<text x="1030.0" y="776" text-anchor="middle" font-size="10" fill="#64748B" class="jb">120F</text>
+<text x="610.0" y="792" text-anchor="middle" font-size="11" fill="#334155" class="bold">60F 标尺（每 10F 一格）</text>
+<text x="160" y="112.33333333333333" text-anchor="end" font-size="11.5" class="bold">L01 普攻1→普攻2</text>
+<text x="160" y="126.33333333333333" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P2 · 总长 20F</text>
+<rect x="190" y="93.6" width="35.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="225.0" y="93.6" width="63.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="288.0" y="93.6" width="42.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="260.0" y="89.06666666666666" width="56.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="260.0" x2="260.0" y1="87.06666666666666" y2="129.6" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="316.0" x2="316.0" y1="87.06666666666666" y2="129.6" stroke="#DC2626" stroke-width="1.4"/>
+<text x="260.0" y="85.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E10</text>
+<text x="316.0" y="85.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L18</text>
+<text x="288.0" y="111.83333333333333" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ9F</text>
+<text x="1060" y="112.33333333333333" font-size="12" fill="#334155" class="jb"> 10F</text>
+<text x="1146" y="112.33333333333333" font-size="12" fill="#334155" class="jb"> 18F</text>
+<text x="1232" y="112.33333333333333" font-size="12" class="bold jb" fill="#DC2626">  9F</text>
+<text x="160" y="169.0" text-anchor="end" font-size="11.5" class="bold">L02 普攻2→普攻3</text>
+<text x="160" y="183.0" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P2 · 总长 19F</text>
+<rect x="190" y="150.26666666666665" width="28.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="218.0" y="150.26666666666665" width="63.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="281.0" y="150.26666666666665" width="42.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="253.0" y="145.73333333333332" width="56.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="253.0" x2="253.0" y1="143.73333333333332" y2="186.26666666666665" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="309.0" x2="309.0" y1="143.73333333333332" y2="186.26666666666665" stroke="#DC2626" stroke-width="1.4"/>
+<text x="253.0" y="141.73333333333332" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E9</text>
+<text x="309.0" y="141.73333333333332" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L17</text>
+<text x="281.0" y="168.5" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ9F</text>
+<text x="1060" y="169.0" font-size="12" fill="#334155" class="jb">  9F</text>
+<text x="1146" y="169.0" font-size="12" fill="#334155" class="jb"> 17F</text>
+<text x="1232" y="169.0" font-size="12" class="bold jb" fill="#DC2626">  9F</text>
+<text x="160" y="225.66666666666666" text-anchor="end" font-size="11.5" class="bold">L03 普攻3→普攻4</text>
+<text x="160" y="239.66666666666666" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P2 · 总长 22F</text>
+<rect x="190" y="206.9333333333333" width="35.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="225.0" y="206.9333333333333" width="70.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="295.0" y="206.9333333333333" width="49.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="267.0" y="202.39999999999998" width="63.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="267.0" x2="267.0" y1="200.39999999999998" y2="242.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="330.0" x2="330.0" y1="200.39999999999998" y2="242.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<text x="267.0" y="198.39999999999998" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E11</text>
+<text x="330.0" y="198.39999999999998" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L20</text>
+<text x="298.5" y="225.16666666666663" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ10F</text>
+<text x="1060" y="225.66666666666666" font-size="12" fill="#334155" class="jb"> 11F</text>
+<text x="1146" y="225.66666666666666" font-size="12" fill="#334155" class="jb"> 20F</text>
+<text x="1232" y="225.66666666666666" font-size="12" class="bold jb" fill="#DC2626"> 10F</text>
+<text x="160" y="282.3333333333333" text-anchor="end" font-size="11.5" class="bold">L04 普攻4→普攻5</text>
+<text x="160" y="296.3333333333333" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P2 · 总长 25F</text>
+<rect x="190" y="263.6" width="42.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="232.0" y="263.6" width="77.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="309.0" y="263.6" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="281.0" y="259.06666666666666" width="70.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="281.0" x2="281.0" y1="257.06666666666666" y2="299.6" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="351.0" x2="351.0" y1="257.06666666666666" y2="299.6" stroke="#DC2626" stroke-width="1.4"/>
+<text x="281.0" y="255.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E13</text>
+<text x="351.0" y="255.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L23</text>
+<text x="316.0" y="281.8333333333333" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ11F</text>
+<text x="1060" y="282.3333333333333" font-size="12" fill="#334155" class="jb"> 13F</text>
+<text x="1146" y="282.3333333333333" font-size="12" fill="#334155" class="jb"> 23F</text>
+<text x="1232" y="282.3333333333333" font-size="12" class="bold jb" fill="#DC2626"> 11F</text>
+<text x="160" y="338.99999999999994" text-anchor="end" font-size="11.5" class="bold">L05 普攻5→3A侧踢</text>
+<text x="160" y="352.99999999999994" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P3 · 总长 28F</text>
+<rect x="190" y="320.26666666666665" width="49.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="239.0" y="320.26666666666665" width="91.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="330.0" y="320.26666666666665" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="295.0" y="315.7333333333333" width="77.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="295.0" x2="295.0" y1="313.7333333333333" y2="356.26666666666665" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="372.0" x2="372.0" y1="313.7333333333333" y2="356.26666666666665" stroke="#DC2626" stroke-width="1.4"/>
+<text x="295.0" y="311.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E15</text>
+<text x="372.0" y="311.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L26</text>
+<text x="333.5" y="338.49999999999994" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ12F</text>
+<text x="1060" y="338.99999999999994" font-size="12" fill="#334155" class="jb"> 15F</text>
+<text x="1146" y="338.99999999999994" font-size="12" fill="#334155" class="jb"> 26F</text>
+<text x="1232" y="338.99999999999994" font-size="12" class="bold jb" fill="#DC2626"> 12F</text>
+<text x="160" y="395.66666666666663" text-anchor="end" font-size="11.5" class="bold">L06 普攻5→满蓄狙击</text>
+<text x="160" y="409.66666666666663" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P3 · 总长 32F</text>
+<rect x="190" y="376.93333333333334" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="246.0" y="376.93333333333334" width="112.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="358.0" y="376.93333333333334" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="316.0" y="372.4" width="84.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="316.0" x2="316.0" y1="370.4" y2="412.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="400.0" x2="400.0" y1="370.4" y2="412.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<text x="316.0" y="368.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E18</text>
+<text x="400.0" y="368.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L30</text>
+<text x="358.0" y="395.16666666666663" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ13F</text>
+<text x="1060" y="395.66666666666663" font-size="12" fill="#334155" class="jb"> 18F</text>
+<text x="1146" y="395.66666666666663" font-size="12" fill="#334155" class="jb"> 30F</text>
+<text x="1232" y="395.66666666666663" font-size="12" class="bold jb" fill="#DC2626"> 13F</text>
+<text x="160" y="452.3333333333333" text-anchor="end" font-size="11.5" class="bold">L07 闪避→普攻1</text>
+<text x="160" y="466.3333333333333" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P4 · 总长 24F</text>
+<rect x="190" y="433.6" width="70.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="260.0" y="433.6" width="56.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="316.0" y="433.6" width="42.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="288.0" y="429.06666666666666" width="56.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="288.0" x2="288.0" y1="427.06666666666666" y2="469.6" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="344.0" x2="344.0" y1="427.06666666666666" y2="469.6" stroke="#DC2626" stroke-width="1.4"/>
+<text x="288.0" y="425.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E14</text>
+<text x="344.0" y="425.06666666666666" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L22</text>
+<text x="316.0" y="451.8333333333333" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ9F</text>
+<text x="1060" y="452.3333333333333" font-size="12" fill="#334155" class="jb"> 14F</text>
+<text x="1146" y="452.3333333333333" font-size="12" fill="#334155" class="jb"> 22F</text>
+<text x="1232" y="452.3333333333333" font-size="12" class="bold jb" fill="#DC2626">  9F</text>
+<text x="160" y="508.99999999999994" text-anchor="end" font-size="11.5" class="bold">L08 主动技能→普攻1</text>
+<text x="160" y="523.0" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P4 · 总长 30F</text>
+<rect x="190" y="490.26666666666665" width="84.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="274.0" y="490.26666666666665" width="70.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="344.0" y="490.26666666666665" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="309.0" y="485.7333333333333" width="77.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="309.0" x2="309.0" y1="483.7333333333333" y2="526.2666666666667" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="386.0" x2="386.0" y1="483.7333333333333" y2="526.2666666666667" stroke="#DC2626" stroke-width="1.4"/>
+<text x="309.0" y="481.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E17</text>
+<text x="386.0" y="481.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L28</text>
+<text x="347.5" y="508.49999999999994" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ12F</text>
+<text x="1060" y="508.99999999999994" font-size="12" fill="#334155" class="jb"> 17F</text>
+<text x="1146" y="508.99999999999994" font-size="12" fill="#334155" class="jb"> 28F</text>
+<text x="1232" y="508.99999999999994" font-size="12" class="bold jb" fill="#DC2626"> 12F</text>
+<text x="160" y="565.6666666666666" text-anchor="end" font-size="11.5" class="bold">L09 换弹→普攻1</text>
+<text x="160" y="579.6666666666666" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P3 · 总长 42F</text>
+<rect x="190" y="546.9333333333333" width="105.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="295.0" y="546.9333333333333" width="140.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="435.0" y="546.9333333333333" width="49.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="386.0" y="542.4" width="84.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="386.0" x2="386.0" y1="540.4" y2="582.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="470.0" x2="470.0" y1="540.4" y2="582.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<text x="386.0" y="538.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E28</text>
+<text x="470.0" y="538.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L40</text>
+<text x="428.0" y="565.1666666666666" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ13F</text>
+<text x="1060" y="565.6666666666666" font-size="12" fill="#334155" class="jb"> 28F</text>
+<text x="1146" y="565.6666666666666" font-size="12" fill="#334155" class="jb"> 40F</text>
+<text x="1232" y="565.6666666666666" font-size="12" class="bold jb" fill="#DC2626"> 13F</text>
+<text x="160" y="622.3333333333334" text-anchor="end" font-size="11.5" class="bold">L10 开镜→射击</text>
+<text x="160" y="636.3333333333334" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P3 · 总长 18F</text>
+<rect x="190" y="603.6" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="246.0" y="603.6" width="42.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="288.0" y="603.6" width="28.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="267.0" y="599.0666666666667" width="35.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="267.0" x2="267.0" y1="597.0666666666667" y2="639.6" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="302.0" x2="302.0" y1="597.0666666666667" y2="639.6" stroke="#DC2626" stroke-width="1.4"/>
+<text x="267.0" y="595.0666666666667" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E11</text>
+<text x="302.0" y="595.0666666666667" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L16</text>
+<text x="1060" y="622.3333333333334" font-size="12" fill="#334155" class="jb"> 11F</text>
+<text x="1146" y="622.3333333333334" font-size="12" fill="#334155" class="jb"> 16F</text>
+<text x="1232" y="622.3333333333334" font-size="12" class="bold jb" fill="#DC2626">  6F</text>
+<text x="160" y="679.0" text-anchor="end" font-size="11.5" class="bold">L11 大招→收势待机</text>
+<text x="160" y="693.0" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P5 · 总长 80F</text>
+<rect x="190" y="660.2666666666667" width="140.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="330.0" y="660.2666666666667" width="280.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="610.0" y="660.2666666666667" width="140.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="540.0" y="655.7333333333333" width="196.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="540.0" x2="540.0" y1="653.7333333333333" y2="696.2666666666667" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="736.0" x2="736.0" y1="653.7333333333333" y2="696.2666666666667" stroke="#DC2626" stroke-width="1.4"/>
+<text x="540.0" y="651.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E50</text>
+<text x="736.0" y="651.7333333333333" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L78</text>
+<text x="638.0" y="678.5" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ29F</text>
+<text x="1060" y="679.0" font-size="12" fill="#334155" class="jb"> 50F</text>
+<text x="1146" y="679.0" font-size="12" fill="#334155" class="jb"> 78F</text>
+<text x="1232" y="679.0" font-size="12" class="bold jb" fill="#DC2626"> 29F</text>
+<text x="160" y="735.6666666666666" text-anchor="end" font-size="11.5" class="bold">L12 3A→待机</text>
+<text x="160" y="749.6666666666666" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">P1 · 总长 24F</text>
+<rect x="190" y="716.9333333333333" width="56.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="246.0" y="716.9333333333333" width="70.0" height="29.466666666666665" fill="#0891B2" rx="3"/>
+<rect x="316.0" y="716.9333333333333" width="42.0" height="29.466666666666665" fill="#CBD5E1" rx="3"/>
+<rect x="288.0" y="712.4" width="56.0" height="38.53333333333333" fill="rgba(220,38,38,0.32)" rx="4" stroke="#DC2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+<line x1="288.0" x2="288.0" y1="710.4" y2="752.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<line x1="344.0" x2="344.0" y1="710.4" y2="752.9333333333333" stroke="#DC2626" stroke-width="1.4"/>
+<text x="288.0" y="708.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">E14</text>
+<text x="344.0" y="708.4" text-anchor="middle" font-size="9" fill="#DC2626" class="jb">L22</text>
+<text x="316.0" y="735.1666666666666" text-anchor="middle" font-size="10" fill="#7F1D1D" class="bold jb">Δ9F</text>
+<text x="1060" y="735.6666666666666" font-size="12" fill="#334155" class="jb"> 14F</text>
+<text x="1146" y="735.6666666666666" font-size="12" fill="#334155" class="jb"> 22F</text>
+<text x="1232" y="735.6666666666666" font-size="12" class="bold jb" fill="#DC2626">  9F</text>
+<rect x="24" y="780" width="820" height="22" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="36" y="788" width="14" height="10" fill="#CBD5E1" stroke="#94A3B8" stroke-width="0.6" rx="2"/>
+<text x="56" y="797" font-size="11" fill="#334155">Startup / Recovery 收起势</text>
+<rect x="236" y="788" width="14" height="10" fill="#0891B2" stroke="#94A3B8" stroke-width="0.6" rx="2"/>
+<text x="256" y="797" font-size="11" fill="#334155">Active 动作有效帧</text>
+<rect x="436" y="788" width="14" height="10" fill="rgba(220,38,38,0.32)" stroke="#94A3B8" stroke-width="0.6" rx="2"/>
+<text x="456" y="797" font-size="11" fill="#334155">Cancel 可输入窗口 (Early→Late)</text>
+<rect x="636" y="788" width="14" height="10" fill="#DC2626" stroke="#94A3B8" stroke-width="0.6" rx="2"/>
+<text x="656" y="797" font-size="11" fill="#334155">Early/Late 边界刻度</text>
+</svg>

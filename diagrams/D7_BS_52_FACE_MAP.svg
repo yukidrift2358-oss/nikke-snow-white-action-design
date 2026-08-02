@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="1200" height="1000" fill="#F8FAFC"/>
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="0.5"/></pattern></defs>
+<rect width="1200" height="1000" fill="url(#g)"/>
+<text x="40" y="56" fill="#0F172A" font-size="20" font-weight="700">D7 · BS 52 通道面部分区分布图</text>
+<text x="40" y="82" fill="#64748B" font-size="12">B-03 §02 基准 · Eye18 / Mouth18 / Brow10 / Jaw6 · 启用状态色编码</text>
+<rect x="1020" y="36" width="140" height="40" rx="6" fill="none" stroke="#E2E8F0"/>
+<text x="1028" y="54" fill="#334155" font-size="10.5" font-weight="600">文档 V1.0</text>
+<text x="1028" y="70" fill="#64748B" font-size="10">2026-08-01</text>
+<ellipse cx="600" cy="460" rx="220" ry="300" fill="none" stroke="#334155" stroke-width="0.8"/>
+<line x1="600" y1="160" x2="600" y2="920" stroke="#94A3B8" stroke-width="0.6" stroke-dasharray="4 4"/>
+<rect x="400" y="300" width="400" height="80" rx="8" fill="#1E40AF" fill-opacity="0.10" stroke="#1E40AF" stroke-width="0.8"/>
+<text x="408" y="318" fill="#1E40AF" font-size="11" font-weight="700">BROW · 眉区 10 条</text>
+<rect x="390" y="390" width="420" height="150" rx="8" fill="#0891B2" fill-opacity="0.10" stroke="#0891B2" stroke-width="0.8"/>
+<text x="398" y="408" fill="#0891B2" font-size="11" font-weight="700">EYE · 眼区 18 条</text>
+<ellipse cx="505" cy="455" rx="50" ry="28" fill="none" stroke="#334155" stroke-width="0.6"/>
+<ellipse cx="695" cy="455" rx="50" ry="28" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="450" y="580" width="300" height="140" rx="8" fill="#991B1B" fill-opacity="0.08" stroke="#991B1B" stroke-width="0.8"/>
+<text x="458" y="598" fill="#991B1B" font-size="11" font-weight="700">MOUTH · 口区 18 条</text>
+<path d="M 530 650 Q 600 665 670 650" fill="none" stroke="#334155" stroke-width="0.8"/>
+<path d="M 530 650 Q 600 638 670 650" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="420" y="720" width="360" height="120" rx="8" fill="#B45309" fill-opacity="0.08" stroke="#B45309" stroke-width="0.8"/>
+<text x="428" y="738" fill="#B45309" font-size="11" font-weight="700">JAW · 颌区 6 条</text>
+<circle cx="430" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="430" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B01</text>
+<circle cx="770" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="770" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B02</text>
+<circle cx="470" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="470" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B03</text>
+<circle cx="730" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="730" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B04</text>
+<circle cx="510" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="510" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B05</text>
+<circle cx="690" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="690" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B06</text>
+<circle cx="550" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="550" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B07</text>
+<circle cx="650" cy="332" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="650" y="335" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B08</text>
+<circle cx="500" cy="350" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="500" y="353" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B09</text>
+<circle cx="700" cy="350" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="700" y="353" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">B10</text>
+<circle cx="480" cy="410" r="12" fill="#DCFCE7" stroke="#0F766E" stroke-width="1"/>
+<text x="480" y="413" fill="#0F766E" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E01</text>
+<circle cx="720" cy="410" r="12" fill="#DCFCE7" stroke="#0F766E" stroke-width="1"/>
+<text x="720" y="413" fill="#0F766E" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E02</text>
+<circle cx="495" cy="425" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="495" y="428" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E03</text>
+<circle cx="705" cy="425" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="705" y="428" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E04</text>
+<circle cx="510" cy="400" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="510" y="403" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E05</text>
+<circle cx="690" cy="400" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="690" y="403" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E06</text>
+<circle cx="520" cy="388" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="520" y="391" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E07</text>
+<circle cx="680" cy="388" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="680" y="391" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E09</text>
+<circle cx="520" cy="485" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="520" y="488" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E08</text>
+<circle cx="680" cy="485" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="680" y="488" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E10</text>
+<circle cx="540" cy="455" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="540" y="458" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E11</text>
+<circle cx="660" cy="455" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="660" y="458" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E12</text>
+<circle cx="505" cy="455" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="505" y="458" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E13</text>
+<circle cx="695" cy="468" r="12" fill="#DCFCE7" stroke="#0F766E" stroke-width="1"/>
+<text x="695" y="471" fill="#0F766E" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E14</text>
+<circle cx="470" cy="480" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="470" y="483" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E15</text>
+<circle cx="730" cy="480" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="730" y="483" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E16</text>
+<circle cx="530" cy="490" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="530" y="493" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E17</text>
+<circle cx="670" cy="490" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="670" y="493" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">E18</text>
+<circle cx="600" cy="638" r="12" fill="#DCFCE7" stroke="#0F766E" stroke-width="1"/>
+<text x="600" y="641" fill="#0F766E" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M01</text>
+<circle cx="570" cy="652" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="570" y="655" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M02</text>
+<circle cx="630" cy="655" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="630" y="658" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M03</text>
+<circle cx="600" cy="670" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="600" y="673" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M04</text>
+<circle cx="655" cy="645" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="655" y="648" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M05</text>
+<circle cx="535" cy="643" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="535" y="646" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M06</text>
+<circle cx="665" cy="643" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="665" y="646" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M07</text>
+<circle cx="530" cy="660" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="530" y="663" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M08</text>
+<circle cx="670" cy="660" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="670" y="663" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M09</text>
+<circle cx="520" cy="650" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="520" y="653" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M10</text>
+<circle cx="680" cy="650" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="680" y="653" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M11</text>
+<circle cx="580" cy="630" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="580" y="633" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M12</text>
+<circle cx="620" cy="682" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="620" y="685" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M13</text>
+<circle cx="550" cy="665" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="550" y="668" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M14</text>
+<circle cx="650" cy="665" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="650" y="668" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M15</text>
+<circle cx="470" cy="630" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="470" y="633" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M16</text>
+<circle cx="730" cy="630" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="730" y="633" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M17</text>
+<circle cx="600" cy="685" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="600" y="688" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">M18</text>
+<circle cx="500" cy="770" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="500" y="773" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J01</text>
+<circle cx="550" cy="795" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="550" y="798" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J02</text>
+<circle cx="600" cy="780" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="600" y="783" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J03</text>
+<circle cx="650" cy="795" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="650" y="798" fill="#B45309" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J04</text>
+<circle cx="520" cy="815" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="520" y="818" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J05</text>
+<circle cx="680" cy="815" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="680" y="818" fill="#991B1B" font-size="8.5" font-weight="700" text-anchor="middle" font-family="JetBrains Mono, monospace">J06</text>
+<circle cx="550" cy="795" r="18" fill="none" stroke="#991B1B" stroke-width="1.2"/>
+<text x="550" y="822" fill="#991B1B" font-size="9" font-weight="700" text-anchor="middle">值 1.00</text>
+<rect x="824" y="96" width="336" height="180" rx="8" fill="#fff" stroke="#E2E8F0"/>
+<text x="840" y="120" fill="#0F172A" font-size="13" font-weight="700">启用状态图例</text>
+<circle cx="852" cy="148" r="12" fill="#DCFCE7" stroke="#0F766E" stroke-width="1"/>
+<text x="870" y="152" fill="#334155" font-size="11.5">常规启用 · 8 条 / 15% · 全阶段可用</text>
+<circle cx="852" cy="176" r="12" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+<text x="870" y="180" fill="#334155" font-size="11.5">部分启用 · 13 条 / 25% · 特定阶段 ≤ 阈值</text>
+<circle cx="852" cy="204" r="12" fill="#FEE2E2" stroke="#991B1B" stroke-width="1"/>
+<text x="870" y="208" fill="#334155" font-size="11.5">永久锁 0 · 31 条 / 60% · 全生命周期恒为 0</text>
+<line x1="840" y1="228" x2="1144" y2="228" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="840" y="246" fill="#64748B" font-size="10.5">合计 52 条 = 8 + 13 + 31</text>
+<text x="840" y="264" fill="#64748B" font-size="10.5">命名基准：A-02 §4 E01~E18 / M01~M18 / B01~B10 / J01~J06</text>
+<rect x="824" y="306" width="336" height="280" rx="8" fill="#fff" stroke="#E2E8F0"/>
+<text x="840" y="330" fill="#0F172A" font-size="13" font-weight="700">四区通道计数</text>
+<text x="840" y="362" fill="#334155" font-size="11" font-weight="600">EYE 眼区</text>
+<rect x="840" y="368" width="304" height="14" rx="3" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="840" y="368" width="50.7" height="14" rx="3" fill="#0F766E" fill-opacity="0.85"/>
+<rect x="890" y="368" width="152.0" height="14" fill="#B45309" fill-opacity="0.85"/>
+<rect x="1042" y="368" width="101.3" height="14" rx="3" fill="#991B1B" fill-opacity="0.85"/>
+<text x="1144" y="362" fill="#0891B2" font-size="10" text-anchor="end" font-weight="700" font-family="JetBrains Mono">18 条</text>
+<text x="840" y="398" fill="#64748B" font-size="10">常规 3 · 部分 9 · 锁 0 6</text>
+<text x="840" y="418" fill="#334155" font-size="11" font-weight="600">MOUTH 口区</text>
+<rect x="840" y="424" width="304" height="14" rx="3" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="840" y="424" width="16.9" height="14" rx="3" fill="#0F766E" fill-opacity="0.85"/>
+<rect x="856" y="424" width="67.6" height="14" fill="#B45309" fill-opacity="0.85"/>
+<rect x="924" y="424" width="219.6" height="14" rx="3" fill="#991B1B" fill-opacity="0.85"/>
+<text x="1144" y="418" fill="#991B1B" font-size="10" text-anchor="end" font-weight="700" font-family="JetBrains Mono">18 条</text>
+<text x="840" y="454" fill="#64748B" font-size="10">常规 1 · 部分 4 · 锁 0 13</text>
+<text x="840" y="474" fill="#334155" font-size="11" font-weight="600">BROW 眉区</text>
+<rect x="840" y="480" width="304" height="14" rx="3" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="840" y="480" width="60.8" height="14" fill="#B45309" fill-opacity="0.85"/>
+<rect x="900" y="480" width="243.2" height="14" rx="3" fill="#991B1B" fill-opacity="0.85"/>
+<text x="1144" y="474" fill="#1E40AF" font-size="10" text-anchor="end" font-weight="700" font-family="JetBrains Mono">10 条</text>
+<text x="840" y="510" fill="#64748B" font-size="10">常规 0 · 部分 2 · 锁 0 8</text>
+<text x="840" y="530" fill="#334155" font-size="11" font-weight="600">JAW 颌区</text>
+<rect x="840" y="536" width="304" height="14" rx="3" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="840" y="536" width="152.0" height="14" fill="#B45309" fill-opacity="0.85"/>
+<rect x="992" y="536" width="152.0" height="14" rx="3" fill="#991B1B" fill-opacity="0.85"/>
+<text x="1144" y="530" fill="#B45309" font-size="10" text-anchor="end" font-weight="700" font-family="JetBrains Mono">06 条</text>
+<text x="840" y="566" fill="#64748B" font-size="10">常规 0 · 部分 3 · 锁 0 3</text>
+<line x1="40" y1="960" x2="1160" y2="960" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="40" y="978" fill="#64748B" font-size="10.5" font-family="JetBrains Mono, monospace">D7 / BS_52_FACE_MAP</text>
+<text x="1160" y="978" fill="#64748B" font-size="10.5" text-anchor="end">A-02 §4 → B-03 §02 · 命名一致性 100%</text>
+</svg>

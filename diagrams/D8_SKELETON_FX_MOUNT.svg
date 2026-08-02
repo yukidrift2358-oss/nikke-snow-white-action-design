@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1100" width="1400" height="1100" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="1400" height="1100" fill="#F8FAFC"/>
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="0.5"/></pattern></defs>
+<rect width="1400" height="1100" fill="url(#g)"/>
+<text x="40" y="56" fill="#0F172A" font-size="20" font-weight="700">D8 · 骨骼层级与特效挂载点示意图</text>
+<text x="40" y="82" fill="#64748B" font-size="12">A-02 §2 骨骼 112 条（6 区分色）· A-02 §3 特效挂载点 8 处</text>
+<rect x="1220" y="36" width="140" height="40" rx="6" fill="none" stroke="#E2E8F0"/>
+<text x="1228" y="54" fill="#334155" font-size="10.5" font-weight="600">文档 V1.0</text>
+<text x="1228" y="70" fill="#64748B" font-size="10">2026-08-01</text>
+<line x1="420" y1="160" x2="420" y2="250" stroke="#1E40AF" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="420" y1="250" x2="420" y2="280" stroke="#1E40AF" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="420" y1="280" x2="420" y2="400" stroke="#1E40AF" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="420" y1="400" x2="420" y2="520" stroke="#1E40AF" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="420" y1="250" x2="365" y2="285" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="365" y1="285" x2="305" y2="295" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="305" y1="295" x2="188" y2="347" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="188" y1="347" x2="69" y2="396" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="69" y1="396" x2="14" y2="401" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="420" y1="250" x2="475" y2="285" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="475" y1="285" x2="535" y2="295" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="535" y1="295" x2="652" y2="347" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="652" y1="347" x2="771" y2="396" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="771" y1="396" x2="826" y2="401" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="420" y1="520" x2="360" y2="520" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="360" y1="520" x2="350" y2="720" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="350" y1="720" x2="352" y2="920" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="352" y1="920" x2="422" y2="930" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="420" y1="520" x2="480" y2="520" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="480" y1="520" x2="490" y2="720" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="490" y1="720" x2="488" y2="920" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="488" y1="920" x2="558" y2="930" stroke="#B45309" stroke-width="3.2" stroke-linecap="round"/>
+<circle cx="420" cy="160" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="420" cy="250" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="420" cy="280" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="420" cy="400" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="420" cy="520" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="365" cy="285" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="475" cy="285" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="305" cy="295" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="535" cy="295" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="188" cy="347" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="652" cy="347" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="69" cy="396" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="771" cy="396" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="14" cy="401" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="826" cy="401" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="360" cy="520" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="480" cy="520" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="350" cy="720" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="490" cy="720" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="352" cy="920" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="488" cy="920" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="422" cy="930" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="558" cy="930" r="4.5" fill="#fff" stroke="#0F172A" stroke-width="1"/>
+<circle cx="390" cy="185" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="390" cy="203" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="390" cy="221" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="405" cy="185" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="405" cy="203" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="405" cy="221" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="420" cy="185" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="420" cy="203" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="420" cy="221" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="435" cy="185" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="435" cy="203" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="435" cy="221" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="450" cy="185" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="450" cy="203" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<circle cx="450" cy="221" r="3" fill="#6D28D9" fill-opacity="0.6"/>
+<line x1="4" y1="391" x2="-10" y2="386" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="4" y1="398" x2="-17" y2="395" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="4" y1="405" x2="-19" y2="404" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="4" y1="412" x2="-14" y2="413" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="4" y1="419" x2="-7" y2="422" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="391" x2="850" y2="386" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="398" x2="857" y2="395" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="405" x2="859" y2="404" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="412" x2="854" y2="413" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="419" x2="847" y2="422" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="826" cy="401" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="826" y1="401" x2="896" y2="371" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="896" cy="371" r="14" fill="#991B1B"/>
+<text x="896" y="375" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">01</text>
+<text x="918" y="369" fill="#0F172A" font-size="10.5" font-weight="600">FX-01</text>
+<text x="918" y="383" fill="#64748B" font-size="9.5">枪口焰·右步枪</text>
+<circle cx="14" cy="401" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="14" y1="401" x2="-56" y2="371" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="-56" cy="371" r="14" fill="#991B1B"/>
+<text x="-56" y="375" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">02</text>
+<text x="-34" y="369" fill="#0F172A" font-size="10.5" font-weight="600">FX-02</text>
+<text x="-34" y="383" fill="#64748B" font-size="9.5">枪口焰·左步枪</text>
+<circle cx="420" cy="160" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="420" y1="160" x2="420" y2="200" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="420" cy="200" r="14" fill="#991B1B"/>
+<text x="420" y="204" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">03</text>
+<text x="442" y="198" fill="#0F172A" font-size="10.5" font-weight="600">FX-03</text>
+<text x="442" y="212" fill="#64748B" font-size="9.5">护目镜反光·护目镜</text>
+<circle cx="771" cy="396" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="771" y1="396" x2="811" y2="396" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="811" cy="396" r="14" fill="#991B1B"/>
+<text x="811" y="400" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">04</text>
+<text x="833" y="394" fill="#0F172A" font-size="10.5" font-weight="600">FX-04</text>
+<text x="833" y="408" fill="#64748B" font-size="9.5">弹壳抛射·抛壳窗</text>
+<circle cx="365" cy="285" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="365" y1="285" x2="280" y2="310" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="280" cy="310" r="14" fill="#991B1B"/>
+<text x="280" y="314" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">05</text>
+<text x="302" y="308" fill="#0F172A" font-size="10.5" font-weight="600">FX-05</text>
+<text x="302" y="322" fill="#64748B" font-size="9.5">背带抖动·背带D环</text>
+<circle cx="771" cy="396" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="771" y1="396" x2="831" y2="416" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="831" cy="416" r="14" fill="#991B1B"/>
+<text x="831" y="420" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">06</text>
+<text x="853" y="414" fill="#0F172A" font-size="10.5" font-weight="600">FX-06</text>
+<text x="853" y="428" fill="#64748B" font-size="9.5">手套粒子·右手背</text>
+<circle cx="422" cy="930" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="422" y1="930" x2="432" y2="935" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="432" cy="935" r="14" fill="#991B1B"/>
+<text x="432" y="939" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">07</text>
+<text x="454" y="933" fill="#0F172A" font-size="10.5" font-weight="600">FX-07</text>
+<text x="454" y="947" fill="#64748B" font-size="9.5">鞋尖尘土·左靴</text>
+<circle cx="420" cy="520" r="10" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="420" y1="520" x2="330" y2="570" stroke="#991B1B" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="330" cy="570" r="14" fill="#991B1B"/>
+<text x="330" y="574" fill="#fff" font-size="8" font-weight="700" text-anchor="middle" font-family="JetBrains Mono">08</text>
+<text x="352" y="568" fill="#0F172A" font-size="10.5" font-weight="600">FX-08</text>
+<text x="352" y="582" fill="#64748B" font-size="9.5">裙摆风动·骨盆左</text>
+<rect x="804" y="96" width="536" height="220" rx="8" fill="#fff" stroke="#E2E8F0"/>
+<text x="820" y="120" fill="#0F172A" font-size="13" font-weight="700">A-02 §2 · 六大区骨骼分布（合计 112 条）</text>
+<rect x="820" y="142" width="10" height="10" fill="#1E40AF" rx="2"/>
+<text x="840" y="152" fill="#334155" font-size="11" font-weight="600">Spine 脊柱</text>
+<text x="1000" y="152" fill="#1E40AF" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">14 条</text>
+<text x="1080" y="152" fill="#64748B" font-size="10">躯干主轴 + 颈 14</text>
+<rect x="1190" y="143" width="150" height="8" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="1190" y="143" width="42" height="8" rx="2" fill="#1E40AF" fill-opacity="0.75"/>
+<rect x="820" y="172" width="10" height="10" fill="#0891B2" rx="2"/>
+<text x="840" y="182" fill="#334155" font-size="11" font-weight="600">Arm 手臂</text>
+<text x="1000" y="182" fill="#0891B2" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">40 条</text>
+<text x="1080" y="182" fill="#64748B" font-size="10">锁骨 + 上臂 + 前臂 + 手指（×2）</text>
+<rect x="1190" y="173" width="150" height="8" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="1190" y="173" width="120" height="8" rx="2" fill="#0891B2" fill-opacity="0.75"/>
+<rect x="820" y="202" width="10" height="10" fill="#B45309" rx="2"/>
+<text x="840" y="212" fill="#334155" font-size="11" font-weight="600">Leg 腿部</text>
+<text x="1000" y="212" fill="#B45309" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">28 条</text>
+<text x="1080" y="212" fill="#64748B" font-size="10">髋 + 大腿 + 小腿 + 足（×2）</text>
+<rect x="1190" y="203" width="150" height="8" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="1190" y="203" width="84" height="8" rx="2" fill="#B45309" fill-opacity="0.75"/>
+<rect x="820" y="232" width="10" height="10" fill="#6D28D9" rx="2"/>
+<text x="840" y="242" fill="#334155" font-size="11" font-weight="600">Head 头骨</text>
+<text x="1000" y="242" fill="#6D28D9" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">06 条</text>
+<text x="1080" y="242" fill="#64748B" font-size="10">头 + 下颌 + 眼球（共 6）</text>
+<rect x="1190" y="233" width="150" height="8" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="1190" y="233" width="18" height="8" rx="2" fill="#6D28D9" fill-opacity="0.75"/>
+<rect x="820" y="262" width="10" height="10" fill="#6D28D9" rx="2"/>
+<text x="840" y="272" fill="#334155" font-size="11" font-weight="600">Face 面骨</text>
+<text x="1000" y="272" fill="#6D28D9" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">30 条</text>
+<text x="1080" y="272" fill="#64748B" font-size="10">眼睑/口唇/眉/颌 联动骨</text>
+<rect x="1190" y="263" width="150" height="8" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect x="1190" y="263" width="90" height="8" rx="2" fill="#6D28D9" fill-opacity="0.75"/>
+<rect x="820" y="292" width="10" height="10" fill="#64748B" rx="2"/>
+<text x="840" y="302" fill="#334155" font-size="11" font-weight="600">Prop 道具</text>
+<text x="1000" y="302" fill="#64748B" font-size="12" font-weight="700" font-family="JetBrains Mono, monospace">00 条</text>
+<text x="1080" y="302" fill="#64748B" font-size="10">双步枪 + 狙击枪（单独蒙皮，不计入 112）</text>
+<rect x="804" y="356" width="536" height="320" rx="8" fill="#fff" stroke="#E2E8F0"/>
+<text x="820" y="380" fill="#0F172A" font-size="13" font-weight="700">A-02 §3 · 特效挂载点明细（8 处）</text>
+<text x="820" y="402" fill="#64748B" font-size="10.5">所有挂载点局部坐标须与骨骼空间绑定（Parent Constraint），不可世界空间定位</text>
+<rect x="820" y="424" width="504" height="22" fill="#F8FAFC"/>
+<text x="826" y="439" fill="#334155" font-size="10" font-weight="600">编号</text>
+<text x="882" y="439" fill="#334155" font-size="10" font-weight="600">名称</text>
+<text x="1022" y="439" fill="#334155" font-size="10" font-weight="600">绑定骨骼</text>
+<text x="1132" y="439" fill="#334155" font-size="10" font-weight="600">类型</text>
+<text x="1212" y="439" fill="#334155" font-size="10" font-weight="600">回调帧例</text>
+<text x="826" y="465" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-01</text>
+<text x="882" y="465" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">枪口焰·右步枪</text>
+<text x="1022" y="465" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Hand_R (枪口)</text>
+<text x="1132" y="465" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">粒子+光</text>
+<text x="1212" y="465" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">F-06/F-07 击发 F</text>
+<rect x="820" y="476" width="504" height="30" fill="#fff"/>
+<text x="826" y="495" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-02</text>
+<text x="882" y="495" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">枪口焰·左步枪</text>
+<text x="1022" y="495" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Hand_L (枪口)</text>
+<text x="1132" y="495" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">粒子+光</text>
+<text x="1212" y="495" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">F-05/F-07 击发 F</text>
+<text x="826" y="525" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-03</text>
+<text x="882" y="525" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">护目镜反光</text>
+<text x="1022" y="525" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Head (眼)</text>
+<text x="1132" y="525" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">屏幕贴图</text>
+<text x="1212" y="525" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">F-05/F-08 ADS瞄准</text>
+<rect x="820" y="536" width="504" height="30" fill="#fff"/>
+<text x="826" y="555" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-04</text>
+<text x="882" y="555" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">弹壳抛射</text>
+<text x="1022" y="555" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Wrist_R (抛壳窗)</text>
+<text x="1132" y="555" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">刚体模拟</text>
+<text x="1212" y="555" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">每次击发 F+2</text>
+<text x="826" y="585" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-05</text>
+<text x="882" y="585" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">背带抖动D环</text>
+<text x="1022" y="585" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Clav_L</text>
+<text x="1132" y="585" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">弹簧约束</text>
+<text x="1212" y="585" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">M-02/M-03 Sprint</text>
+<rect x="820" y="596" width="504" height="30" fill="#fff"/>
+<text x="826" y="615" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-06</text>
+<text x="882" y="615" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">手套手背粒子</text>
+<text x="1022" y="615" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Wrist_R</text>
+<text x="1132" y="615" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">粒子叠加</text>
+<text x="1212" y="615" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">U-02 F075 爆发</text>
+<text x="826" y="645" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-07</text>
+<text x="882" y="645" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">鞋尖尘土</text>
+<text x="1022" y="645" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Toe_L/Toe_R</text>
+<text x="1132" y="645" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">粒子+贴花</text>
+<text x="1212" y="645" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">M-01/M-02 每步 F</text>
+<rect x="820" y="656" width="504" height="30" fill="#fff"/>
+<text x="826" y="675" fill="#991B1B" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">FX-08</text>
+<text x="882" y="675" fill="#0F172A" font-size="10" font-weight="600" font-family="Noto Sans CJK SC, sans-serif">裙摆风动</text>
+<text x="1022" y="675" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">Pelvis (裙摆)</text>
+<text x="1132" y="675" fill="#334155" font-size="10" font-weight="400" font-family="Noto Sans CJK SC, sans-serif">布料模拟</text>
+<text x="1212" y="675" fill="#334155" font-size="10" font-weight="400" font-family="JetBrains Mono, monospace">M-03 Sprint + U-01 蓄力</text>
+<line x1="40" y1="1060" x2="1360" y2="1060" stroke="#E2E8F0" stroke-width="0.5"/>
+<text x="40" y="1078" fill="#64748B" font-size="10.5" font-family="JetBrains Mono, monospace">D8 / SKELETON_FX_MOUNT</text>
+<text x="1360" y="1078" fill="#64748B" font-size="10.5" text-anchor="end">A-02 §2 112 骨 · A-02 §3 8 挂载 · B-01 回调帧对齐</text>
+</svg>

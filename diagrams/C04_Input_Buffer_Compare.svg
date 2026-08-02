@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<defs><style>
+text{font-family:"Noto Sans CJK SC","Noto Serif CJK SC","WenQuanYi Micro Hei",sans-serif;fill:#0F172A}
+.jb{font-family:"JetBrains Mono","Noto Sans Mono",Menlo,Consolas,monospace;} .bold{font-weight:700;}
+</style>
+<linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891B2" stop-opacity=".14"/><stop offset="1" stop-color="#0891B2" stop-opacity=".02"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891B2"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="820" fill="#FFFFFF"/>
+<text x="30" y="36" class="bold" font-size="20">C-04 · 7 类操作输入缓冲帧数对比图</text>
+<text x="30" y="58" font-size="12" fill="#64748B">条形长度 = 缓冲帧数 · 两端误差线 = 推荐范围 · 60 FPS 基准</text>
+<rect x="0" y="72" width="1200" height="34" fill="url(#hdr)"/>
+<text x="150" y="94" text-anchor="end" class="bold" font-size="12" fill="#334155">操作名</text>
+<text x="188" y="94" class="bold" font-size="12" fill="#334155">缓冲帧数（条形） + 推荐范围（误差线）  [1F 标尺]</text>
+<text x="830" y="94" class="bold" font-size="12" fill="#334155">缓冲值</text>
+<text x="920" y="94" class="bold" font-size="12" fill="#334155">来源</text>
+<line x1="0" x2="1200" y1="80.0" y2="80.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="148.57142857142856" y2="148.57142857142856" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="217.14285714285714" y2="217.14285714285714" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="285.7142857142857" y2="285.7142857142857" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="354.2857142857143" y2="354.2857142857143" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="422.85714285714283" y2="422.85714285714283" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="491.42857142857144" y2="491.42857142857144" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="0" x2="1200" y1="560.0" y2="560.0" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="0" y="80.0" width="1200" height="68.57142857142857" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="217.14285714285714" width="1200" height="68.57142857142857" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="354.2857142857143" width="1200" height="68.57142857142857" fill="#FAFBFC" opacity="0.6"/>
+<rect x="0" y="491.42857142857144" width="1200" height="68.57142857142857" fill="#FAFBFC" opacity="0.6"/>
+<line x1="180.0" x2="180.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<text x="180.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">0F</text>
+<line x1="242.0" x2="242.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="242.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">1F</text>
+<line x1="304.0" x2="304.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="304.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">2F</text>
+<line x1="366.0" x2="366.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="366.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">3F</text>
+<line x1="428.0" x2="428.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="428.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">4F</text>
+<line x1="490.0" x2="490.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<text x="490.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">5F</text>
+<line x1="552.0" x2="552.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="552.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">6F</text>
+<line x1="614.0" x2="614.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="614.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">7F</text>
+<line x1="676.0" x2="676.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="676.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">8F</text>
+<line x1="738.0" x2="738.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="3 3" stroke-opacity="0.3"/>
+<text x="738.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">9F</text>
+<line x1="800.0" x2="800.0" y1="80" y2="560" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<text x="800.0" y="576" text-anchor="middle" font-size="10" fill="#64748B" class="jb">10F</text>
+<text x="490.0" y="594" text-anchor="middle" font-size="11" fill="#334155" class="bold">帧数轴（每格 1F）</text>
+<text x="150" y="118.28571428571428" text-anchor="end" font-size="13" class="bold">移动</text>
+<text x="150" y="133.28571428571428" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#01</text>
+<rect x="366.0" y="99.2" width="124.0" height="30.17142857142857" fill="#0891B2" fill-opacity="0.12" rx="4" stroke="#0891B2" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="366.0" x2="366.0" y1="91.65714285714286" y2="136.9142857142857" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="490.0" x2="490.0" y1="91.65714285714286" y2="136.9142857142857" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="91.65714285714286" y2="91.65714285714286" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="136.9142857142857" y2="136.9142857142857" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="486.0" x2="494.0" y1="91.65714285714286" y2="91.65714285714286" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="486.0" x2="494.0" y1="136.9142857142857" y2="136.9142857142857" stroke="#0891B2" stroke-width="1.5"/>
+<line x1="366.0" x2="490.0" y1="114.28571428571428" y2="114.28571428571428" stroke="#0891B2" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg0" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891B2" stop-opacity=".95"/><stop offset="1" stop-color="#0891B2" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="97.14285714285714" width="248.0" height="34.285714285714285" fill="url(#bg0)" rx="4"/>
+<circle cx="428.0" cy="114.28571428571428" r="3.5" fill="#FFFFFF" stroke="#0891B2" stroke-width="2"/>
+<text x="304.0" y="118.28571428571428" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">4F / 67ms</text>
+<text x="836" y="118.28571428571428" font-size="12.5" fill="#0F172A" class="bold jb">4F · 67ms</text>
+<text x="836" y="133.28571428571428" font-size="9.5" fill="#64748B">范围 3~5F</text>
+<text x="926" y="118.28571428571428" font-size="11" fill="#334155" class="jb">B-01 §4.1</text>
+<text x="926" y="133.28571428571428" font-size="9.5" fill="#64748B">±1F 调参</text>
+<text x="150" y="186.85714285714283" text-anchor="end" font-size="13" class="bold">射击</text>
+<text x="150" y="201.85714285714283" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#02</text>
+<rect x="304.0" y="167.77142857142854" width="124.0" height="30.17142857142857" fill="#0E7490" fill-opacity="0.12" rx="4" stroke="#0E7490" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="304.0" x2="304.0" y1="160.2285714285714" y2="205.48571428571427" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="428.0" x2="428.0" y1="160.2285714285714" y2="205.48571428571427" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="300.0" x2="308.0" y1="160.2285714285714" y2="160.2285714285714" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="300.0" x2="308.0" y1="205.48571428571427" y2="205.48571428571427" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="160.2285714285714" y2="160.2285714285714" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="205.48571428571427" y2="205.48571428571427" stroke="#0E7490" stroke-width="1.5"/>
+<line x1="304.0" x2="428.0" y1="182.85714285714283" y2="182.85714285714283" stroke="#0E7490" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E7490" stop-opacity=".95"/><stop offset="1" stop-color="#0E7490" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="165.7142857142857" width="186.0" height="34.285714285714285" fill="url(#bg1)" rx="4"/>
+<circle cx="366.0" cy="182.85714285714283" r="3.5" fill="#FFFFFF" stroke="#0E7490" stroke-width="2"/>
+<text x="273.0" y="186.85714285714283" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">3F / 50ms</text>
+<text x="836" y="186.85714285714283" font-size="12.5" fill="#0F172A" class="bold jb">3F · 50ms</text>
+<text x="836" y="201.85714285714283" font-size="9.5" fill="#64748B">范围 2~4F</text>
+<text x="926" y="186.85714285714283" font-size="11" fill="#334155" class="jb">B-01 §2.1</text>
+<text x="926" y="201.85714285714283" font-size="9.5" fill="#64748B">±1F 调参</text>
+<text x="150" y="255.42857142857142" text-anchor="end" font-size="13" class="bold">开镜瞄准</text>
+<text x="150" y="270.42857142857144" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#03</text>
+<rect x="304.0" y="236.34285714285716" width="124.0" height="30.17142857142857" fill="#0284C7" fill-opacity="0.12" rx="4" stroke="#0284C7" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="304.0" x2="304.0" y1="228.79999999999998" y2="274.0571428571428" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="428.0" x2="428.0" y1="228.79999999999998" y2="274.0571428571428" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="300.0" x2="308.0" y1="228.79999999999998" y2="228.79999999999998" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="300.0" x2="308.0" y1="274.0571428571428" y2="274.0571428571428" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="228.79999999999998" y2="228.79999999999998" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="274.0571428571428" y2="274.0571428571428" stroke="#0284C7" stroke-width="1.5"/>
+<line x1="304.0" x2="428.0" y1="251.42857142857142" y2="251.42857142857142" stroke="#0284C7" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0284C7" stop-opacity=".95"/><stop offset="1" stop-color="#0284C7" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="234.28571428571428" width="186.0" height="34.285714285714285" fill="url(#bg2)" rx="4"/>
+<circle cx="366.0" cy="251.42857142857142" r="3.5" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+<text x="273.0" y="255.42857142857142" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">3F / 50ms</text>
+<text x="836" y="255.42857142857142" font-size="12.5" fill="#0F172A" class="bold jb">3F · 50ms</text>
+<text x="836" y="270.42857142857144" font-size="9.5" fill="#64748B">范围 2~4F</text>
+<text x="926" y="255.42857142857142" font-size="11" fill="#334155" class="jb">B-01 §4.1</text>
+<text x="926" y="270.42857142857144" font-size="9.5" fill="#64748B">±1F 调参</text>
+<text x="150" y="324.0" text-anchor="end" font-size="13" class="bold">换弹</text>
+<text x="150" y="339.0" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#04</text>
+<rect x="366.0" y="304.9142857142857" width="248.0" height="30.17142857142857" fill="#1D4ED8" fill-opacity="0.12" rx="4" stroke="#1D4ED8" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="366.0" x2="366.0" y1="297.37142857142857" y2="342.62857142857143" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="614.0" x2="614.0" y1="297.37142857142857" y2="342.62857142857143" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="297.37142857142857" y2="297.37142857142857" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="342.62857142857143" y2="342.62857142857143" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="610.0" x2="618.0" y1="297.37142857142857" y2="297.37142857142857" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="610.0" x2="618.0" y1="342.62857142857143" y2="342.62857142857143" stroke="#1D4ED8" stroke-width="1.5"/>
+<line x1="366.0" x2="614.0" y1="320.0" y2="320.0" stroke="#1D4ED8" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".95"/><stop offset="1" stop-color="#1D4ED8" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="302.8571428571429" width="310.0" height="34.285714285714285" fill="url(#bg3)" rx="4"/>
+<circle cx="490.0" cy="320.0" r="3.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<text x="335.0" y="324.0" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">5F / 83ms</text>
+<text x="836" y="324.0" font-size="12.5" fill="#0F172A" class="bold jb">5F · 83ms</text>
+<text x="836" y="339.0" font-size="9.5" fill="#64748B">范围 3~7F</text>
+<text x="926" y="324.0" font-size="11" fill="#334155" class="jb">B-01 §4.2</text>
+<text x="926" y="339.0" font-size="9.5" fill="#64748B">±2F 调参</text>
+<text x="150" y="392.57142857142856" text-anchor="end" font-size="13" class="bold">主动技能</text>
+<text x="150" y="407.57142857142856" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#05</text>
+<rect x="366.0" y="373.48571428571427" width="124.0" height="30.17142857142857" fill="#6D28D9" fill-opacity="0.12" rx="4" stroke="#6D28D9" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="366.0" x2="366.0" y1="365.9428571428571" y2="411.2" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="490.0" x2="490.0" y1="365.9428571428571" y2="411.2" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="365.9428571428571" y2="365.9428571428571" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="411.2" y2="411.2" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="486.0" x2="494.0" y1="365.9428571428571" y2="365.9428571428571" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="486.0" x2="494.0" y1="411.2" y2="411.2" stroke="#6D28D9" stroke-width="1.5"/>
+<line x1="366.0" x2="490.0" y1="388.57142857142856" y2="388.57142857142856" stroke="#6D28D9" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6D28D9" stop-opacity=".95"/><stop offset="1" stop-color="#6D28D9" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="371.42857142857144" width="248.0" height="34.285714285714285" fill="url(#bg4)" rx="4"/>
+<circle cx="428.0" cy="388.57142857142856" r="3.5" fill="#FFFFFF" stroke="#6D28D9" stroke-width="2"/>
+<text x="304.0" y="392.57142857142856" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">4F / 67ms</text>
+<text x="836" y="392.57142857142856" font-size="12.5" fill="#0F172A" class="bold jb">4F · 67ms</text>
+<text x="836" y="407.57142857142856" font-size="9.5" fill="#64748B">范围 3~5F</text>
+<text x="926" y="392.57142857142856" font-size="11" fill="#334155" class="jb">B-01 §3.2</text>
+<text x="926" y="407.57142857142856" font-size="9.5" fill="#64748B">±1F 调参</text>
+<text x="150" y="461.1428571428571" text-anchor="end" font-size="13" class="bold">大招</text>
+<text x="150" y="476.1428571428571" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#06</text>
+<rect x="428.0" y="442.0571428571428" width="124.0" height="30.17142857142857" fill="#7C3AED" fill-opacity="0.12" rx="4" stroke="#7C3AED" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="428.0" x2="428.0" y1="434.5142857142857" y2="479.77142857142854" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="552.0" x2="552.0" y1="434.5142857142857" y2="479.77142857142854" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="434.5142857142857" y2="434.5142857142857" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="424.0" x2="432.0" y1="479.77142857142854" y2="479.77142857142854" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="548.0" x2="556.0" y1="434.5142857142857" y2="434.5142857142857" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="548.0" x2="556.0" y1="479.77142857142854" y2="479.77142857142854" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="428.0" x2="552.0" y1="457.1428571428571" y2="457.1428571428571" stroke="#7C3AED" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg5" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED" stop-opacity=".95"/><stop offset="1" stop-color="#7C3AED" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="440.0" width="310.0" height="34.285714285714285" fill="url(#bg5)" rx="4"/>
+<circle cx="490.0" cy="457.1428571428571" r="3.5" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="335.0" y="461.1428571428571" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">5F / 83ms</text>
+<text x="836" y="461.1428571428571" font-size="12.5" fill="#0F172A" class="bold jb">5F · 83ms</text>
+<text x="836" y="476.1428571428571" font-size="9.5" fill="#64748B">范围 4~6F</text>
+<text x="926" y="461.1428571428571" font-size="11" fill="#334155" class="jb">B-01 §3.3</text>
+<text x="926" y="476.1428571428571" font-size="9.5" fill="#64748B">±1F 调参</text>
+<text x="150" y="529.7142857142858" text-anchor="end" font-size="13" class="bold">闪避</text>
+<text x="150" y="544.7142857142858" text-anchor="end" font-size="9.5" fill="#64748B" class="jb">#07</text>
+<rect x="366.0" y="510.62857142857143" width="0.0" height="30.17142857142857" fill="#BE185D" fill-opacity="0.12" rx="4" stroke="#BE185D" stroke-dasharray="3 2" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="366.0" x2="366.0" y1="503.0857142857143" y2="548.3428571428572" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="366.0" x2="366.0" y1="503.0857142857143" y2="548.3428571428572" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="503.0857142857143" y2="503.0857142857143" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="548.3428571428572" y2="548.3428571428572" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="503.0857142857143" y2="503.0857142857143" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="362.0" x2="370.0" y1="548.3428571428572" y2="548.3428571428572" stroke="#BE185D" stroke-width="1.5"/>
+<line x1="366.0" x2="366.0" y1="525.7142857142858" y2="525.7142857142858" stroke="#BE185D" stroke-width="1.1" stroke-opacity="0.7"/>
+<linearGradient id="bg6" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#BE185D" stop-opacity=".95"/><stop offset="1" stop-color="#BE185D" stop-opacity=".78"/></linearGradient>
+<rect x="180" y="508.5714285714286" width="186.0" height="34.285714285714285" fill="url(#bg6)" rx="4"/>
+<circle cx="366.0" cy="525.7142857142858" r="3.5" fill="#FFFFFF" stroke="#BE185D" stroke-width="2"/>
+<text x="273.0" y="529.7142857142858" text-anchor="middle" font-size="11" fill="#FFFFFF" class="bold jb">3F / 50ms</text>
+<text x="836" y="529.7142857142858" font-size="12.5" fill="#0F172A" class="bold jb">3F · 50ms</text>
+<text x="836" y="544.7142857142858" font-size="9.5" fill="#64748B">范围 3~3F</text>
+<text x="926" y="529.7142857142858" font-size="11" fill="#334155" class="jb">B-01 §4.3</text>
+<text x="926" y="544.7142857142858" font-size="9.5" fill="#64748B">±0F 调参</text>
+<line x1="20" x2="1180" y1="592" y2="592" stroke="#E2E8F0" stroke-width="1"/>
+<text x="30" y="608" class="bold" font-size="13">操作说明卡（调参影响速查）</text>
+<rect x="30.0" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="30.0" y="610" width="150.85714285714286" height="32" rx="8" fill="#0891B2" fill-opacity="0.12"/>
+<line x1="30.0" x2="180.85714285714286" y1="642" y2="642" stroke="#0891B2" stroke-opacity=".45" stroke-width="1"/>
+<text x="40.0" y="632" font-size="13" class="bold" fill="#0891B2">移动</text>
+<text x="170.85714285714286" y="632" text-anchor="end" font-size="10.5" fill="#0891B2" class="jb">4F ±1F</text>
+<text x="40.0" y="664" font-size="10.5" fill="#334155">缓冲 4F 1F</text>
+<text x="40.0" y="688" font-size="10.5" fill="#64748B">过短→响应生硬漏指令；</text>
+<text x="40.0" y="704" font-size="10.5" fill="#64748B">过长→方向串键</text>
+<rect x="40.0" y="748" width="130.85714285714286" height="22" rx="4" fill="#0891B2" fill-opacity=".08"/>
+<text x="44.0" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="166.85714285714286" y="763" text-anchor="end" font-size="12" fill="#0891B2" class="bold jb">P1</text>
+<rect x="192.85714285714286" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="192.85714285714286" y="610" width="150.85714285714286" height="32" rx="8" fill="#0E7490" fill-opacity="0.12"/>
+<line x1="192.85714285714286" x2="343.7142857142857" y1="642" y2="642" stroke="#0E7490" stroke-opacity=".45" stroke-width="1"/>
+<text x="202.85714285714286" y="632" font-size="13" class="bold" fill="#0E7490">射击</text>
+<text x="333.7142857142857" y="632" text-anchor="end" font-size="10.5" fill="#0E7490" class="jb">3F ±1F</text>
+<text x="202.85714285714286" y="664" font-size="10.5" fill="#334155">缓冲 3F 1F</text>
+<text x="202.85714285714286" y="688" font-size="10.5" fill="#64748B">过短→快速点射漏发；过</text>
+<text x="202.85714285714286" y="704" font-size="10.5" fill="#64748B">长→射速误判</text>
+<rect x="202.85714285714286" y="748" width="130.85714285714286" height="22" rx="4" fill="#0E7490" fill-opacity=".08"/>
+<text x="206.85714285714286" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="329.7142857142857" y="763" text-anchor="end" font-size="12" fill="#0E7490" class="bold jb">P2</text>
+<rect x="355.7142857142857" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="355.7142857142857" y="610" width="150.85714285714286" height="32" rx="8" fill="#0284C7" fill-opacity="0.12"/>
+<line x1="355.7142857142857" x2="506.57142857142856" y1="642" y2="642" stroke="#0284C7" stroke-opacity=".45" stroke-width="1"/>
+<text x="365.7142857142857" y="632" font-size="13" class="bold" fill="#0284C7">开镜</text>
+<text x="496.57142857142856" y="632" text-anchor="end" font-size="10.5" fill="#0284C7" class="jb">3F ±1F</text>
+<text x="365.7142857142857" y="664" font-size="10.5" fill="#334155">缓冲 3F 1F</text>
+<text x="365.7142857142857" y="688" font-size="10.5" fill="#64748B">过短→开镜/射击冲突；</text>
+<text x="365.7142857142857" y="704" font-size="10.5" fill="#64748B">过长→开镜迟滞</text>
+<rect x="365.7142857142857" y="748" width="130.85714285714286" height="22" rx="4" fill="#0284C7" fill-opacity=".08"/>
+<text x="369.7142857142857" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="492.57142857142856" y="763" text-anchor="end" font-size="12" fill="#0284C7" class="bold jb">P3</text>
+<rect x="518.5714285714286" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="518.5714285714286" y="610" width="150.85714285714286" height="32" rx="8" fill="#1D4ED8" fill-opacity="0.12"/>
+<line x1="518.5714285714286" x2="669.4285714285714" y1="642" y2="642" stroke="#1D4ED8" stroke-opacity=".45" stroke-width="1"/>
+<text x="528.5714285714286" y="632" font-size="13" class="bold" fill="#1D4ED8">换弹</text>
+<text x="659.4285714285714" y="632" text-anchor="end" font-size="10.5" fill="#1D4ED8" class="jb">5F ±2F</text>
+<text x="528.5714285714286" y="664" font-size="10.5" fill="#334155">缓冲 5F 2F</text>
+<text x="528.5714285714286" y="688" font-size="10.5" fill="#64748B">过短→切枪误触换弹；过</text>
+<text x="528.5714285714286" y="704" font-size="10.5" fill="#64748B">长→换弹后摇感重</text>
+<rect x="528.5714285714286" y="748" width="130.85714285714286" height="22" rx="4" fill="#1D4ED8" fill-opacity=".08"/>
+<text x="532.5714285714286" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="655.4285714285714" y="763" text-anchor="end" font-size="12" fill="#1D4ED8" class="bold jb">P4</text>
+<rect x="681.4285714285714" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="681.4285714285714" y="610" width="150.85714285714286" height="32" rx="8" fill="#6D28D9" fill-opacity="0.12"/>
+<line x1="681.4285714285714" x2="832.2857142857143" y1="642" y2="642" stroke="#6D28D9" stroke-opacity=".45" stroke-width="1"/>
+<text x="691.4285714285714" y="632" font-size="13" class="bold" fill="#6D28D9">技能</text>
+<text x="822.2857142857143" y="632" text-anchor="end" font-size="10.5" fill="#6D28D9" class="jb">4F ±1F</text>
+<text x="691.4285714285714" y="664" font-size="10.5" fill="#334155">缓冲 4F 1F</text>
+<text x="691.4285714285714" y="688" font-size="10.5" fill="#64748B">过短→技能误取消；过长</text>
+<text x="691.4285714285714" y="704" font-size="10.5" fill="#64748B">→连招衔接脱节</text>
+<rect x="691.4285714285714" y="748" width="130.85714285714286" height="22" rx="4" fill="#6D28D9" fill-opacity=".08"/>
+<text x="695.4285714285714" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="818.2857142857143" y="763" text-anchor="end" font-size="12" fill="#6D28D9" class="bold jb">P5</text>
+<rect x="844.2857142857143" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="844.2857142857143" y="610" width="150.85714285714286" height="32" rx="8" fill="#7C3AED" fill-opacity="0.12"/>
+<line x1="844.2857142857143" x2="995.1428571428572" y1="642" y2="642" stroke="#7C3AED" stroke-opacity=".45" stroke-width="1"/>
+<text x="854.2857142857143" y="632" font-size="13" class="bold" fill="#7C3AED">大招</text>
+<text x="985.1428571428572" y="632" text-anchor="end" font-size="10.5" fill="#7C3AED" class="jb">5F ±1F</text>
+<text x="854.2857142857143" y="664" font-size="10.5" fill="#334155">缓冲 5F 1F</text>
+<text x="854.2857142857143" y="688" font-size="10.5" fill="#64748B">过短→爆发帧浪费；过长</text>
+<text x="854.2857142857143" y="704" font-size="10.5" fill="#64748B">→大招窗口误操作</text>
+<rect x="854.2857142857143" y="748" width="130.85714285714286" height="22" rx="4" fill="#7C3AED" fill-opacity=".08"/>
+<text x="858.2857142857143" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="981.1428571428572" y="763" text-anchor="end" font-size="12" fill="#7C3AED" class="bold jb">P6</text>
+<rect x="1007.1428571428571" y="610" width="150.85714285714286" height="170" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="1007.1428571428571" y="610" width="150.85714285714286" height="32" rx="8" fill="#BE185D" fill-opacity="0.12"/>
+<line x1="1007.1428571428571" x2="1158.0" y1="642" y2="642" stroke="#BE185D" stroke-opacity=".45" stroke-width="1"/>
+<text x="1017.1428571428571" y="632" font-size="13" class="bold" fill="#BE185D">闪避</text>
+<text x="1148.0" y="632" text-anchor="end" font-size="10.5" fill="#BE185D" class="jb">3F ±0F</text>
+<text x="1017.1428571428571" y="664" font-size="10.5" fill="#334155">缓冲 3F 0F</text>
+<text x="1017.1428571428571" y="688" font-size="10.5" fill="#64748B">零容差硬线，禁止调整，</text>
+<text x="1017.1428571428571" y="704" font-size="10.5" fill="#64748B">防 I-Frame 滥用</text>
+<rect x="1017.1428571428571" y="748" width="130.85714285714286" height="22" rx="4" fill="#BE185D" fill-opacity=".08"/>
+<text x="1021.1428571428571" y="763" font-size="9.5" fill="#334155">入队优先级</text>
+<text x="1144.0" y="763" text-anchor="end" font-size="12" fill="#BE185D" class="bold jb">P7</text>
+</svg>
