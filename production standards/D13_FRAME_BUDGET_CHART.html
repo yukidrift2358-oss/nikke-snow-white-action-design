@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>D13 · 26 动作帧数预算分布图</title>
+<script src="_shared/js/echarts.min.js"></script>
+<style>
+  @font-face {
+    font-family:'Noto Sans CJK SC'; src:url('_shared/fonts/NotoSansCJKsc-Regular.ttf') format('truetype'); font-weight:400;
+  }
+  @font-face {
+    font-family:'Noto Sans CJK SC'; src:url('_shared/fonts/NotoSansCJKsc-Bold.ttf') format('truetype'); font-weight:700;
+  }
+  @font-face {
+    font-family:'JetBrains Mono'; src:url('_shared/fonts/JetBrainsMono-Regular.ttf') format('truetype'); font-weight:400;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Noto Sans CJK SC','PingFang SC',sans-serif; background:#F8FAFC; padding:24px 40px; color:#0F172A; }
+  .title { font-size:22px; font-weight:700; margin-bottom:6px; }
+  .sub { font-size:12px; color:#64748B; margin-bottom:20px; }
+  .row { display:flex; gap:20px; align-items:flex-start; }
+  #chart { flex:1; background:#fff; border:1px solid #E2E8F0; border-radius:10px; padding:12px 16px 4px; }
+  #chart svg, #chart canvas { width:100%; }
+  .panel { width:380px; background:#fff; border:1px solid #E2E8F0; border-radius:10px; padding:16px; }
+  .panel h4 { font-size:13px; font-weight:700; color:#0F172A; margin-bottom:10px; }
+  .tbl { width:100%; border-collapse:collapse; font-size:10.5px; }
+  .tbl th { background:#F8FAFC; padding:5px 6px; color:#334155; text-align:left; font-weight:600; border-bottom:1px solid #E2E8F0; }
+  .tbl td { padding:5px 6px; border-bottom:1px solid #F1F5F9; font-family:'JetBrains Mono',monospace; color:#334155; }
+  .tbl tr:nth-child(even) td { background:#F8FAFC; }
+  .sum { font-weight:700; color:#1E40AF; }
+  .chip { display:inline-block; padding:1px 6px; border-radius:3px; font-size:9px; font-weight:700; color:#fff; }
+  .meta { margin-top:16px; font-size:10px; color:#94A3B8; font-family:'JetBrains Mono',monospace; }
+  .ver { position:absolute; top:24px; right:40px; border:1px solid #E2E8F0; border-radius:6px; padding:6px 14px; font-size:10px; color:#334155; }
+  .ver b { font-size:10.5px; }
+</style>
+</head>
+<body>
+<div class="ver"><b>文档 V1.0</b><br>2026-08-01</div>
+<div class="title">D13 · 26 动作帧数预算分布图（A-03 §3）</div>
+<div class="sub">9 大类 26 动作 · 上限帧数 · 分类着色 · 累计总帧数占比 · 与 B-01 分镜逐帧对齐</div>
+<div class="row">
+  <div id="chart" style="height:760px;"></div>
+  <div class="panel">
+    <h4>动作分类汇总（帧数预算）</h4>
+    <table class="tbl">
+      <thead><tr><th>类</th><th>数量</th><th>合计帧</th><th>占比</th><th>代表动作</th></tr></thead>
+      <tbody id="sum"></tbody>
+    </table>
+    <h4 style="margin-top:18px;">累计统计</h4>
+    <table class="tbl" id="cumTbl"></table>
+    <div class="meta">D13 / ANIM_FRAME_BUDGET_WATERFALL<br>A-03 §3 上限 · B-01 分镜对齐 · 30FPS 基准</div>
+  </div>
+</div>
+
+<script>
+// 26动作数据（从 A-03 §3 真实数据）
+const CATS = {
+  I: { name:'待机/Idle',    color:'#1E40AF' },
+  M: { name:'移动/Move',    color:'#0369A1' },
+  F: { name:'开火/Fire',    color:'#DC2626' },
+  H: { name:'受伤/Hit',     color:'#B45309' },
+  D: { name:'死亡/Death',   color:'#334155' },
+  E: { name:'情感/Emote',   color:'#7C3AED' },
+  U: { name:'大招/Ult',     color:'#0F766E' },
+  R: { name:'换弹/Reload',  color:'#0891B2' },
+  S: { name:'切换/Switch',  color:'#6D28D9' },
+};
+const actions = [
+  // 编号, 名称, 类别, 帧数上限
+  ['I-01','待机·标准','I',180],
+  ['I-02','待机·呼吸','I',240],
+  ['I-03','待机·警戒','I',200],
+  ['I-04','出神凝视','I',150],
+  ['M-01','行走·前方','M',30],
+  ['M-02','疾跑·Sprint','M',22],
+  ['M-03','急停转向','M',18],
+  ['M-04','掩体就位','M',36],
+  ['M-05','翻越矮墙','M',48],
+  ['F-05','双步枪·点射','F',18],
+  ['F-06','双步枪·齐射','F',20],
+  ['F-07','腰射·爆发','F',14],
+  ['F-08','狙击·ADS射击','F',48],
+  ['H-01','轻受击·前','H',10],
+  ['H-02','重受击·后仰','H',20],
+  ['H-03','眩晕·失衡','H',80],
+  ['D-01','倒地·标准','D',60],
+  ['D-02','倒地·后仰','D',72],
+  ['D-03','淘汰·滑跪','D',90],
+  ['D-04','死亡·定格','D',120],
+  ['E-01','换弹·完成','E',18],
+  ['E-02','击杀·确认','E',24],
+  ['E-03','闪避·翻滚','E',28],
+  ['U-01','大招·蓄力','U',70],
+  ['U-02','大招·爆发','U',112],
+  ['U-03','大招·收势','U',70],
+];
+
+// 分类汇总
+const catMap = {};
+actions.forEach(([id,name,c,f])=>{
+  if(!catMap[c]) catMap[c]={count:0,frames:0};
+  catMap[c].count++; catMap[c].frames += f;
+});
+const total = actions.reduce((s,a)=>s+a[3],0);
+const sumEl = document.getElementById('sum');
+Object.keys(CATS).forEach(k=>{
+  const c = catMap[k] || {count:0,frames:0};
+  const pct = (c.frames/total*100).toFixed(1);
+  const rep = actions.find(a=>a[2]===k);
+  sumEl.insertAdjacentHTML('beforeend',
+    `<tr><td><span class="chip" style="background:${CATS[k].color}">${k}</span> ${CATS[k].name}</td>`+
+    `<td>${c.count}</td><td class="sum">${c.frames.toLocaleString()}F</td>`+
+    `<td>${pct}%</td><td style="font-family:sans-serif;font-size:10px;">${rep?rep[1]:'—'}</td></tr>`);
+});
+
+// 累计表
+const cumTbl = document.getElementById('cumTbl');
+cumTbl.innerHTML = `<tr><td style="font-weight:600;color:#0F172A;width:50%">动作总数</td><td class="sum">26</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">分类数</td><td class="sum">9</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">总帧数预算</td><td class="sum">${total.toLocaleString()} F</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">30FPS 总时长</td><td class="sum">${(total/30).toFixed(1)} 秒</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">平均帧数</td><td>${Math.round(total/26)} F</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">中位数帧数</td><td>${actions.map(a=>a[3]).sort((a,b)=>a-b)[13]} F</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">最大帧（${actions.reduce((m,a)=>a[3]>m[3]?a:m,['','','',0])[0]}）</td><td style="color:#991B1B;font-weight:700;">${Math.max(...actions.map(a=>a[3]))} F</td></tr>
+  <tr><td style="font-weight:600;color:#0F172A;">最小帧（${actions.reduce((m,a)=>a[3]<m[3]?a:m,['','','',99999])[0]}）</td><td style="color:#0F766E;font-weight:700;">${Math.min(...actions.map(a=>a[3]))} F</td></tr>`;
+
+// 瀑布图：排序按帧数降序
+const sorted = actions.slice().sort((a,b)=>b[3]-a[3]);
+
+(function safeChart(){
+  function run(){
+    if(typeof echarts === 'undefined'){
+      var el = document.getElementById('chart');
+      if(el){ el.innerHTML = '<div style="padding:260px 20px;text-align:center;color:#991B1B;font-size:14px;line-height:2;">图表库未加载（echarts.min.js 未找到）<br><span style="font-size:12px;color:#64748B">请确认 diagrams/_shared/js/echarts.min.js 存在于同级目录</span></div>'; el.style.background='#FEF2F2'; el.style.border='1px solid #FECACA'; el.style.borderRadius='10px'; }
+      return;
+    }
+    try {
+      const chart = echarts.init(document.getElementById('chart'), null, {renderer:'canvas'});
+chart.setOption({
+  grid:{left:90,right:40,top:40,bottom:140},
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},
+    formatter:p=>{
+      const d = p[0];
+      const a = sorted[d.dataIndex];
+      return `<b>${a[0]} · ${a[1]}</b><br>类别：${CATS[a[2]].name}<br>帧数：<b>${a[3]}F</b>（${(a[3]/30).toFixed(2)}s）<br>占比：${(a[3]/total*100).toFixed(1)}%`;
+    }
+  },
+  xAxis:{
+    type:'category',
+    data: sorted.map(a=>a[0]+' '+a[1].replace(/·/g,'')),
+    axisLabel:{interval:0,rotate:45,fontSize:10,color:'#334155',fontWeight:600,fontFamily:'JetBrains Mono, monospace'},
+    axisLine:{lineStyle:{color:'#E2E8F0'}},
+  },
+  yAxis:[
+    {type:'value',name:'帧数 (F)',nameTextStyle:{fontSize:10,color:'#64748B'},
+     axisLabel:{fontSize:10,fontFamily:'JetBrains Mono, monospace'},
+     splitLine:{lineStyle:{color:'#F1F5F9'}},
+     min:0, max:260, interval:40},
+    {type:'value',name:'累计 %',nameTextStyle:{fontSize:10,color:'#64748B'},axisLabel:{formatter:'{value}%',fontSize:10},splitLine:{show:false},min:0,max:100}
+  ],
+  series:[
+    {name:'帧数',type:'bar',data:sorted.map(a=>({
+      value:a[3],
+      itemStyle:{color:CATS[a[2]].color, borderRadius:[3,3,0,0]},
+      label:{show:true,position:'top',formatter:p=>p.value+'F',fontSize:9,fontWeight:700,color:'#0F172A',fontFamily:'JetBrains Mono, monospace'}
+    })),barWidth:'48%'},
+    {name:'累计占比',type:'line',yAxisIndex:1,smooth:true,
+     data: sorted.reduce((acc,a,i)=>{const s=(acc[i-1]?.value||0)+a[3]/total*100; acc.push({value:Math.round(s*10)/10}); return acc;},[]),
+     lineStyle:{color:'#991B1B',width:2.5},symbol:'circle',symbolSize:6,itemStyle:{color:'#991B1B',borderColor:'#fff',borderWidth:2},
+     areaStyle:{color:'rgba(153,27,27,0.08)'},
+     label:{show:true,formatter:p=>p.value+'%',fontSize:8.5,color:'#991B1B',fontWeight:600,fontFamily:'JetBrains Mono, monospace',position:'top'}}
+  ],
+  graphic:[
+    {type:'text',left:90,top:14,text:'按帧数降序排列 · 条高=帧数预算 · 红线=累计占比（右轴）',
+     style:{fontSize:11,color:'#64748B',fontWeight:500}},
+    {type:'text',right:40,bottom:108,text:`合计 ${total}F = ${(total/30).toFixed(1)}s @ 30FPS`,
+     style:{fontSize:11,color:'#1E40AF',fontWeight:700,fontFamily:'JetBrains Mono, monospace'}}
+  ]
+});
+window.addEventListener('resize',()=>chart.resize());
+    } catch (e) {
+      console.error('[D13 chart error]', e);
+      var el = document.getElementById('chart');
+      if (el && !el.querySelector('canvas')) {
+        el.innerHTML = '<div style="padding:240px 20px;text-align:center;color:#991B1B;font-size:13px;line-height:1.8;"><b>图表渲染异常：</b><br>' + String(e.message || e) + '<br><br>请按 F12 打开 Console 查看堆栈</div>';
+        el.style.background = '#FEF2F2'; el.style.border = '1px solid #FECACA'; el.style.borderRadius = '10px';
+      }
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+  else run();
+})();
+</script>
+</body>
+</html>
