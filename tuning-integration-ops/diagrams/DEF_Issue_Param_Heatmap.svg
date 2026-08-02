@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" font-family="Noto Sans CJK SC, Source Han Sans SC, PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <linearGradient id="heat0" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F3F4F6"/>
+      <stop offset="100%" stop-color="#E5E7EB"/>
+    </linearGradient>
+    <linearGradient id="heat1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#BFDBFE"/>
+    </linearGradient>
+    <linearGradient id="heat2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    <linearGradient id="heat3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="820" fill="#FAFBFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="700" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1F2937">15 类问题 × 30 参数关联度热力图（缩略示意 8×10）</text>
+  <text x="700" y="72" text-anchor="middle" font-size="13" fill="#6B7280">颜色深度 = 关联度：0-无 1-低 2-中 3-高 | 完整交互版见 HTML §5.1 ECharts 组件</text>
+
+  <!-- Grid setup -->
+  <!-- Col headers: P01 ~ P10 (10 cols of the simplified 8x10) -->
+  <g font-size="11" font-weight="600" fill="#374151" text-anchor="middle">
+    <text x="250" y="110">P01</text>
+    <text x="350" y="110">P02</text>
+    <text x="450" y="110">P03</text>
+    <text x="550" y="110">P04</text>
+    <text x="650" y="110">P05</text>
+    <text x="750" y="110">P06</text>
+    <text x="850" y="110">P07</text>
+    <text x="950" y="110">P08</text>
+    <text x="1050" y="110">P09</text>
+    <text x="1150" y="110">P10</text>
+  </g>
+
+  <!-- Row headers: Q01 ~ Q08 -->
+  <g font-size="11" fill="#374151" text-anchor="end">
+    <text x="230" y="148">Q01 快速点射漏发</text>
+    <text x="230" y="208">Q02 闪避后摇连不上普攻</text>
+    <text x="230" y="268">Q03 大招爆发帧感觉空</text>
+    <text x="230" y="328">Q04 换弹取消误触</text>
+    <text x="230" y="388">Q05 开镜 FOV 跳变突兀</text>
+    <text x="230" y="448">Q06 命中反馈太弱/太强</text>
+    <text x="230" y="508">Q07 普攻 5 段断连</text>
+    <text x="230" y="568">Q08 满蓄击发时震屏失衡</text>
+  </g>
+
+  <!-- Heat cells 8 x 10 -->
+  <!--
+    Relation matrix (0/1/2/3):
+    Q01: 3,3,2,1,2,1,0, 2,2,1
+    Q02: 1,1,3,3,2,0,0, 3,2,2
+    Q03: 0,0,1,2,3,3,3, 1,2,3
+    Q04: 2,2,2,3,1,0,0, 3,3,1
+    Q05: 0,0,0,0,1,1,2, 0,2,3
+    Q06: 0,1,0,1,2,2,2, 3,3,3
+    Q07: 2,2,3,2,1,1,0, 2,2,1
+    Q08: 0,0,0,1,1,2,3, 2,3,3
+  -->
+  <g stroke="#FFFFFF" stroke-width="1.5">
+    <!-- Row 1 (Q01) -->
+    <rect x="210" y="120" width="80" height="50" fill="url(#heat3)"/><text x="250" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">3</text>
+    <rect x="310" y="120" width="80" height="50" fill="url(#heat3)"/><text x="350" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">3</text>
+    <rect x="410" y="120" width="80" height="50" fill="url(#heat2)"/><text x="450" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="510" y="120" width="80" height="50" fill="url(#heat1)"/><text x="550" y="150" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="610" y="120" width="80" height="50" fill="url(#heat2)"/><text x="650" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="710" y="120" width="80" height="50" fill="url(#heat1)"/><text x="750" y="150" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="810" y="120" width="80" height="50" fill="url(#heat0)"/><text x="850" y="150" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="910" y="120" width="80" height="50" fill="url(#heat2)"/><text x="950" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1010" y="120" width="80" height="50" fill="url(#heat2)"/><text x="1050" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1110" y="120" width="80" height="50" fill="url(#heat1)"/><text x="1150" y="150" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+
+    <!-- Row 2 (Q02) -->
+    <rect x="210" y="180" width="80" height="50" fill="url(#heat1)"/><text x="250" y="210" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="310" y="180" width="80" height="50" fill="url(#heat1)"/><text x="350" y="210" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="410" y="180" width="80" height="50" fill="url(#heat3)"/><text x="450" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="510" y="180" width="80" height="50" fill="url(#heat3)"/><text x="550" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="610" y="180" width="80" height="50" fill="url(#heat2)"/><text x="650" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="710" y="180" width="80" height="50" fill="url(#heat0)"/><text x="750" y="210" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="810" y="180" width="80" height="50" fill="url(#heat0)"/><text x="850" y="210" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="910" y="180" width="80" height="50" fill="url(#heat3)"/><text x="950" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1010" y="180" width="80" height="50" fill="url(#heat2)"/><text x="1050" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1110" y="180" width="80" height="50" fill="url(#heat2)"/><text x="1150" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+
+    <!-- Row 3 (Q03) -->
+    <rect x="210" y="240" width="80" height="50" fill="url(#heat0)"/><text x="250" y="270" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="310" y="240" width="80" height="50" fill="url(#heat0)"/><text x="350" y="270" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="410" y="240" width="80" height="50" fill="url(#heat1)"/><text x="450" y="270" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="510" y="240" width="80" height="50" fill="url(#heat2)"/><text x="550" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="610" y="240" width="80" height="50" fill="url(#heat3)"/><text x="650" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="710" y="240" width="80" height="50" fill="url(#heat3)"/><text x="750" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="810" y="240" width="80" height="50" fill="url(#heat3)"/><text x="850" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="910" y="240" width="80" height="50" fill="url(#heat1)"/><text x="950" y="270" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="1010" y="240" width="80" height="50" fill="url(#heat2)"/><text x="1050" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1110" y="240" width="80" height="50" fill="url(#heat3)"/><text x="1150" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+
+    <!-- Row 4 (Q04) -->
+    <rect x="210" y="300" width="80" height="50" fill="url(#heat2)"/><text x="250" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="310" y="300" width="80" height="50" fill="url(#heat2)"/><text x="350" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="410" y="300" width="80" height="50" fill="url(#heat2)"/><text x="450" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="510" y="300" width="80" height="50" fill="url(#heat3)"/><text x="550" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="610" y="300" width="80" height="50" fill="url(#heat1)"/><text x="650" y="330" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="710" y="300" width="80" height="50" fill="url(#heat0)"/><text x="750" y="330" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="810" y="300" width="80" height="50" fill="url(#heat0)"/><text x="850" y="330" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="910" y="300" width="80" height="50" fill="url(#heat3)"/><text x="950" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1010" y="300" width="80" height="50" fill="url(#heat3)"/><text x="1050" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1110" y="300" width="80" height="50" fill="url(#heat1)"/><text x="1150" y="330" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+
+    <!-- Row 5 (Q05) -->
+    <rect x="210" y="360" width="80" height="50" fill="url(#heat0)"/><text x="250" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="310" y="360" width="80" height="50" fill="url(#heat0)"/><text x="350" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="410" y="360" width="80" height="50" fill="url(#heat0)"/><text x="450" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="510" y="360" width="80" height="50" fill="url(#heat0)"/><text x="550" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="610" y="360" width="80" height="50" fill="url(#heat1)"/><text x="650" y="390" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="710" y="360" width="80" height="50" fill="url(#heat1)"/><text x="750" y="390" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="810" y="360" width="80" height="50" fill="url(#heat2)"/><text x="850" y="390" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="910" y="360" width="80" height="50" fill="url(#heat0)"/><text x="950" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="1010" y="360" width="80" height="50" fill="url(#heat2)"/><text x="1050" y="390" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1110" y="360" width="80" height="50" fill="url(#heat3)"/><text x="1150" y="390" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+
+    <!-- Row 6 (Q06) -->
+    <rect x="210" y="420" width="80" height="50" fill="url(#heat0)"/><text x="250" y="450" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="310" y="420" width="80" height="50" fill="url(#heat1)"/><text x="350" y="450" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="410" y="420" width="80" height="50" fill="url(#heat0)"/><text x="450" y="450" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="510" y="420" width="80" height="50" fill="url(#heat1)"/><text x="550" y="450" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="610" y="420" width="80" height="50" fill="url(#heat2)"/><text x="650" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="710" y="420" width="80" height="50" fill="url(#heat2)"/><text x="750" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="810" y="420" width="80" height="50" fill="url(#heat2)"/><text x="850" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="910" y="420" width="80" height="50" fill="url(#heat3)"/><text x="950" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1010" y="420" width="80" height="50" fill="url(#heat3)"/><text x="1050" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1110" y="420" width="80" height="50" fill="url(#heat3)"/><text x="1150" y="450" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+
+    <!-- Row 7 (Q07) -->
+    <rect x="210" y="480" width="80" height="50" fill="url(#heat2)"/><text x="250" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="310" y="480" width="80" height="50" fill="url(#heat2)"/><text x="350" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="410" y="480" width="80" height="50" fill="url(#heat3)"/><text x="450" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="510" y="480" width="80" height="50" fill="url(#heat2)"/><text x="550" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="610" y="480" width="80" height="50" fill="url(#heat1)"/><text x="650" y="510" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="710" y="480" width="80" height="50" fill="url(#heat1)"/><text x="750" y="510" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="810" y="480" width="80" height="50" fill="url(#heat0)"/><text x="850" y="510" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="910" y="480" width="80" height="50" fill="url(#heat2)"/><text x="950" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1010" y="480" width="80" height="50" fill="url(#heat2)"/><text x="1050" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1110" y="480" width="80" height="50" fill="url(#heat1)"/><text x="1150" y="510" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+
+    <!-- Row 8 (Q08) -->
+    <rect x="210" y="540" width="80" height="50" fill="url(#heat0)"/><text x="250" y="570" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="310" y="540" width="80" height="50" fill="url(#heat0)"/><text x="350" y="570" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="410" y="540" width="80" height="50" fill="url(#heat0)"/><text x="450" y="570" text-anchor="middle" font-size="14" font-weight="600" fill="#6B7280">0</text>
+    <rect x="510" y="540" width="80" height="50" fill="url(#heat1)"/><text x="550" y="570" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="610" y="540" width="80" height="50" fill="url(#heat1)"/><text x="650" y="570" text-anchor="middle" font-size="16" font-weight="600" fill="#1E3A8A">1</text>
+    <rect x="710" y="540" width="80" height="50" fill="url(#heat2)"/><text x="750" y="570" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="810" y="540" width="80" height="50" fill="url(#heat3)"/><text x="850" y="570" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="910" y="540" width="80" height="50" fill="url(#heat2)"/><text x="950" y="570" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">2</text>
+    <rect x="1010" y="540" width="80" height="50" fill="url(#heat3)"/><text x="1050" y="570" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="1110" y="540" width="80" height="50" fill="url(#heat3)"/><text x="1150" y="570" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+  </g>
+
+  <!-- VisualMap Legend -->
+  <g transform="translate(420, 640)">
+    <rect x="0" y="0" width="560" height="80" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <text x="20" y="26" font-size="13" font-weight="700" fill="#1F2937">关联度 VisualMap</text>
+
+    <rect x="20" y="40" width="60" height="26" fill="url(#heat0)" stroke="#D1D5DB"/>
+    <text x="50" y="58" text-anchor="middle" font-size="12" font-weight="600" fill="#6B7280">0 无</text>
+
+    <rect x="90" y="40" width="60" height="26" fill="url(#heat1)" stroke="#93C5FD"/>
+    <text x="120" y="58" text-anchor="middle" font-size="12" font-weight="600" fill="#1E3A8A">1 低</text>
+
+    <rect x="160" y="40" width="60" height="26" fill="url(#heat2)" stroke="#F59E0B"/>
+    <text x="190" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#78350F">2 中</text>
+
+    <rect x="230" y="40" width="60" height="26" fill="url(#heat3)" stroke="#DC2626"/>
+    <text x="260" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">3 高</text>
+
+    <text x="330" y="58" font-size="12" fill="#374151">Q01-Q08 = 8 类典型问题行；P01-P10 = 前 10 项参数列</text>
+  </g>
+
+  <!-- Note -->
+  <text x="700" y="760" text-anchor="middle" font-size="12" fill="#6B7280">注：本图为缩略示意图（8 行 × 10 列），完整 15 × 30 矩阵请在 HTML 正文 §5.1 下方 ECharts 交互热力图中查看。</text>
+  <text x="700" y="785" text-anchor="middle" font-size="12" fill="#6B7280">色块数字为关联度分档，完整图带 tooltip 悬停详情、行名列名全称与 CSS 变量色对齐。</text>
+</svg>

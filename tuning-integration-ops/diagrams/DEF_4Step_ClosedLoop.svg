@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" font-family="Noto Sans CJK SC, Source Han Sans SC, PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#3B82F6"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#F59E0B"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#8B5CF6"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#10B981"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#6B7280"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#EF4444"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="720" fill="#FAFBFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="800" y="50" text-anchor="middle" font-size="28" font-weight="700" fill="#1F2937">DEF 四步闭环流程图</text>
+  <text x="800" y="82" text-anchor="middle" font-size="16" fill="#6B7280">问题复现 → 定位 → 修改 → 验证 → 归档（含失败回路）</text>
+
+  <!-- Node 1: 问题复现 (Blue) -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="220" width="200" height="110" rx="16" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2.5"/>
+    <text x="160" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#1D4ED8">① 问题复现</text>
+    <text x="160" y="290" text-anchor="middle" font-size="13" fill="#1E40AF">录制帧级操作序列</text>
+    <text x="160" y="312" text-anchor="middle" font-size="13" fill="#1E40AF">稳定复现步骤 ≥3 次</text>
+  </g>
+
+  <!-- Node 2: 定位 (Orange) -->
+  <g filter="url(#shadow)">
+    <rect x="380" y="220" width="200" height="110" rx="16" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2.5"/>
+    <text x="480" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#B45309">② 定位</text>
+    <text x="480" y="290" text-anchor="middle" font-size="13" fill="#92400E">判定根因归属段</text>
+    <text x="480" y="312" text-anchor="middle" font-size="13" fill="#92400E">锁定参数编号范围</text>
+  </g>
+
+  <!-- Sub-branches for Node 2 -->
+  <g>
+    <rect x="340" y="370" width="130" height="50" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+    <text x="405" y="394" text-anchor="middle" font-size="12" font-weight="600" fill="#78350F">查 DebugTag</text>
+    <text x="405" y="412" text-anchor="middle" font-size="11" fill="#78350F">C02/C04/C05/C06</text>
+    <line x1="405" y1="370" x2="440" y2="330" stroke="#D97706" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowOrange)"/>
+
+    <rect x="490" y="370" width="130" height="50" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+    <text x="555" y="394" text-anchor="middle" font-size="12" font-weight="600" fill="#78350F">查 A/B/C 参数</text>
+    <text x="555" y="412" text-anchor="middle" font-size="11" fill="#78350F">对照 §2.1 速查表</text>
+    <line x1="555" y1="370" x2="520" y2="330" stroke="#D97706" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowOrange)"/>
+  </g>
+
+  <!-- Node 3: 修改 (Purple) -->
+  <g filter="url(#shadow)">
+    <rect x="700" y="220" width="200" height="110" rx="16" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="2.5"/>
+    <text x="800" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#5B21B6">③ 修改</text>
+    <text x="800" y="290" text-anchor="middle" font-size="13" fill="#4C1D95">按 §2.5 硬线范围</text>
+    <text x="800" y="312" text-anchor="middle" font-size="13" fill="#4C1D95">填写 §2.4 修改记录</text>
+  </g>
+
+  <!-- Node 4: 验证 (Green) -->
+  <g filter="url(#shadow)">
+    <rect x="1020" y="220" width="200" height="110" rx="16" fill="#ECFDF5" stroke="#10B981" stroke-width="2.5"/>
+    <text x="1120" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#047857">④ 验证</text>
+    <text x="1120" y="290" text-anchor="middle" font-size="13" fill="#065F46">回归 §3.2 Case</text>
+    <text x="1120" y="312" text-anchor="middle" font-size="13" fill="#065F46">通过率 ≥ 98%</text>
+  </g>
+
+  <!-- Verify fail branch -->
+  <g>
+    <rect x="1060" y="370" width="120" height="50" rx="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="1120" y="394" text-anchor="middle" font-size="12" font-weight="600" fill="#991B1B">验证失败</text>
+    <text x="1120" y="412" text-anchor="middle" font-size="11" fill="#991B1B">回退 → 重定位</text>
+    <line x1="1100" y1="370" x2="1070" y2="330" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- Loop back to Node 2 -->
+    <path d="M 1120 420 C 1120 500, 500 500, 480 332" fill="none" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowRed)"/>
+    <text x="780" y="488" text-anchor="middle" font-size="12" font-weight="600" fill="#B91C1C">验证失败回路：重新进入定位环节</text>
+  </g>
+
+  <!-- Node 5: 归档 (Gray) -->
+  <g filter="url(#shadow)">
+    <rect x="1340" y="220" width="200" height="110" rx="16" fill="#F3F4F6" stroke="#6B7280" stroke-width="2.5"/>
+    <text x="1440" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">⑤ 归档</text>
+    <text x="1440" y="290" text-anchor="middle" font-size="13" fill="#1F2937">同步 §6.1 校验</text>
+    <text x="1440" y="312" text-anchor="middle" font-size="13" fill="#1F2937">录入 §6.2 版本记录</text>
+  </g>
+
+  <!-- Locate fail branch -->
+  <g>
+    <path d="M 480 180 L 480 140 L 800 140 L 800 218" fill="none" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowRed)"/>
+    <rect x="560" y="105" width="160" height="34" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.2"/>
+    <text x="640" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#991B1B">定位失败 → 跳转修改 A/B/C 原始文档</text>
+  </g>
+
+  <!-- Main flow arrows -->
+  <line x1="260" y1="275" x2="380" y2="275" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <line x1="580" y1="275" x2="700" y2="275" stroke="#F59E0B" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <line x1="900" y1="275" x2="1020" y2="275" stroke="#8B5CF6" stroke-width="3" marker-end="url(#arrowPurple)"/>
+  <line x1="1220" y1="275" x2="1340" y2="275" stroke="#10B981" stroke-width="3" marker-end="url(#arrowGreen)"/>
+
+  <!-- Legend -->
+  <g transform="translate(80, 570)">
+    <rect x="0" y="0" width="1440" height="120" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <text x="20" y="32" font-size="15" font-weight="700" fill="#1F2937">图例 Legend</text>
+
+    <circle cx="60" cy="65" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <text x="80" y="70" font-size="13" fill="#374151">问题复现阶段（输入层）</text>
+
+    <circle cx="290" cy="65" r="10" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="310" y="70" font-size="13" fill="#374151">定位阶段（查因层）</text>
+
+    <circle cx="500" cy="65" r="10" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="520" y="70" font-size="13" fill="#374151">修改阶段（参数层）</text>
+
+    <circle cx="690" cy="65" r="10" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <text x="710" y="70" font-size="13" fill="#374151">验证阶段（回归层）</text>
+
+    <circle cx="880" cy="65" r="10" fill="#F3F4F6" stroke="#6B7280" stroke-width="2"/>
+    <text x="900" y="70" font-size="13" fill="#374151">归档阶段（出圈层）</text>
+
+    <line x1="60" y1="100" x2="110" y2="100" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,4"/>
+    <polygon points="110,94 120,100 110,106" fill="#EF4444"/>
+    <text x="130" y="105" font-size="13" fill="#374151">失败回路（验证失败→重定位 / 定位失败→跳原文档）</text>
+
+    <text x="1050" y="70" font-size="13" fill="#374151">节点数：5 主节点 + 4 子分支</text>
+    <text x="1050" y="105" font-size="13" fill="#374151">回路数：2 条失败回退路径</text>
+  </g>
+</svg>
