@@ -2,4 +2,6 @@
 __pycache__/
 *.pyc
 Thumbs.db
-EOF
+output/previews/
+*.inspect.ndjson
+node_modules/

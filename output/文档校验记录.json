@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "scope": "文档、数据关系、导出内容与旧文件保留；不含游戏实现或实机测试",
+  "legacy_baseline": "635b4a5131cc1dcd406da79270ae858794c75967",
+  "checks": 274,
+  "passed": 274,
+  "pdf_pages": 17,
+  "archive_blobs_verified": 161,
+  "actions": 10,
+  "parameters": 37,
+  "enemies": 3,
+  "pending_gameplay_cases": 34
+}

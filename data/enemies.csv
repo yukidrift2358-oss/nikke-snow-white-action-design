@@ -1,0 +1,4 @@
+﻿enemy_id,name,hp,startup_F,effect_start_F,effect_end_F,recovery_F,damage,counter,rule
+E_RANGED,远程兵,80,30,31,31,90,10,侧移或掩体,预警结束锁定落点
+E_RUSH,近战兵,60,36,37,42,48,15,侧闪、射杀或近击,冲刺锁方向，碰墙停止
+E_ARMOR,装甲兵,160,48,49,49,120,20,等待恢复期弱点,本体0.5倍；露出弱点1.5倍
